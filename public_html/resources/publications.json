@@ -100,7 +100,7 @@
 		"type": "Journal",
 		"title": "ToscaMart: A Method for Adapting and Reusing Cloud Applications",
 		"url": "http://www.sciencedirect.com/science/article/pii/S0164121215002903",
-		"author": "J. Soldani, T. Binz, U. Breitenbücher, F. Leymann, A. Brogi",
+		"author": "J. Soldani, T. Binz, U. Breitenbuecher, F. Leymann, A. Brogi",
 		"where": "Journal of Systems and Software, volume 113, pages 395-406"
 	}, {
 		"type": "Journal",
@@ -112,7 +112,7 @@
 		"type": "Conference",
 		"title": "SeaClouds: An Open Reference Architecture for Multi-cloud Governance",
 		"url": "http://dx.doi.org/10.1007/978-3-319-48992-6_25",
-		"author": "A. Brogi, J. Carrasco, F. D'Andria, E. Di Nitto, M. Guerriero, D. Peréz, E. Pimentel, J. Soldani",
+		"author": "A. Brogi, J. Carrasco, F. D'Andria, E. Di Nitto, M. Guerriero, D. Perez, E. Pimentel, J. Soldani",
 		"where": "10th European Conference on Software Architectures (ECSA 2016)"
 	}, {
 		"type": "Conference",
@@ -150,7 +150,7 @@
 		"type": "Misc",
 		"url": "http://eprints.adm.unipi.it/2331/1/SBBLB15_-_TR.pdf",
 		"title": "TOSCA-MART: A Method for Adapting and Reusing Cloud Applications",
-		"author": "J. Soldani, T. Binz, U. Breitenbücher, F. Leymann, A. Brogi",
+		"author": "J. Soldani, T. Binz, U. Breitenbuecher, F. Leymann, A. Brogi",
 		"where": "Tech. Rep., University of Pisa, Italy",
 		"notDBLP": "true"
 	}, {
