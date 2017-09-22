@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    loadPublicationList();
+	$.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
     loadProgramCommitteesList();
     loadProjectList();
     loadTeachingList();
@@ -11,7 +11,7 @@
  * the "publications" var in "publications.js"
  * [Usage: body.onlo
  */
-function loadPublicationList() {
+function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
 
     // For each year in which a paper has been published 
