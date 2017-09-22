@@ -2,8 +2,8 @@
 	$.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
-    loadTeachingList();
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
+    $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/teaching.json", (data) => { loadTeachingList(data) });
     
 });
 
@@ -200,30 +200,6 @@ function loadProjectList(projects) {
 }
 
 /*
- * This function fills the list of teaching activities, by exploiting
- * the "teaching" var in "teaching.js"
- * [Usage: body.onload]
- */
-function loadTeachingList() {
-    var teachingTable = $('#teaching-activities-list')[0];
-    $.each(teaching, function (i, activity) {
-        var activityRow = document.createElement('tr');
-
-        // Adding "ay"
-        var ay = document.createElement('td');
-        ay.textContent = activity.ay;
-        activityRow.appendChild(ay);
-
-        // Adding "role", "course", "programme"
-        var act = document.createElement('td');
-        act.textContent = activity.role + " @ " + activity.course + ", " + activity.degree + ", " + activity.university;
-        activityRow.appendChild(act);
-
-        teachingTable.appendChild(activityRow);
-    });
-}
-
-/*
  * This function fills the list of supervised theses.
  * [Usage: body.onload]
  */
@@ -266,5 +242,28 @@ function loadStudentsThesesList(studentsTheses) {
         stRow.appendChild(mark);
 
         studentsThesesTable.appendChild(stRow)
+    });
+}
+
+/*
+ * This function fills the list of teaching activities.
+ * [Usage: body.onload]
+ */
+function loadTeachingList(teaching) {
+    var teachingTable = $('#teaching-activities-list')[0];
+    $.each(teaching, function (i, activity) {
+        var activityRow = document.createElement('tr');
+
+        // Adding "ay"
+        var ay = document.createElement('td');
+        ay.textContent = activity.ay;
+        activityRow.appendChild(ay);
+
+        // Adding "role", "course", "programme"
+        var act = document.createElement('td');
+        act.textContent = activity.role + " @ " + activity.course + ", " + activity.degree + ", " + activity.university;
+        activityRow.appendChild(act);
+
+        teachingTable.appendChild(activityRow);
     });
 }
