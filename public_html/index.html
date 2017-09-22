@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jacopo Soldani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="img/unipi-logo.png" style="margin-top:5px;margin-right:15px;height:50px" />
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                    <li id="home-nav" class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+                    <li id="research-nav"><a href="#research" data-toggle="tab" aria-expanded="false">Research</a></li>
+                    <li id="teaching-nav"><a href="#teaching" data-toggle="tab" aria-expanded="false">Teaching</a></li>
+                    <li id="see-also-nav" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">See also<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+							<li><a href="#theses" data-toggle="tab" aria-expanded="false">Theses</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://www.csauthors.net/jacopo-soldani/" target="_blank">csauthors &#10162;</a></li>
+                            <li><a href="http://dblp.uni-trier.de/pers/hd/s/Soldani:Jacopo" target="_blank">DBLP &#10162;</a></li>
+                            <li><a href="https://scholar.google.com/citations?user=k4sVHoUAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar &#10162;</a></li>
+                            <li><a href="https://www.researchgate.net/profile/Jacopo_Soldani" target="_blank">Research Gate &#10162;</a></li>
+                            <li><a href="http://www.scopus.com/authid/detail.uri?authorId=56203938200" target="_blank">Scopus &#10162;</a></li>
+                            <li><a href="https://www.semanticscholar.org/author/Jacopo-Soldani/2265546" target="_blank">Semantic Scholar &#10162;</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://github.com/jacopogiallo" target="_blank">GitHub &#10162;</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://www.linkedin.com/in/jacopo-soldani-49739084" target="_blank">LinkedIn &#10162;</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div class="tab-content">
+		<div id="home" class="container-fluid content-pane tab-pane fade in active">
+			<div class="col-lg-12">
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 col-md-4 col-lg-2">
+							<img src="img/myphoto.png" style="width:100%;border-radius:50%" />
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-8">
+							<h2><b>Jacopo Soldani</b></h2>
+							<p class="lead">
+								Post-Doc researcher
+								<br>
+								<a href="http://di-unipi-socc.github.io" target="_blank">Service-Oriented, Cloud and Fog Computing research group</a>
+								<br>
+								<a href="http://www.di.unipi.it" target="_blank">Computer Science Department</a>
+								<br>
+								<a href="http://www.unipi.it" target="_blank">University of Pisa</a></h4>
+							</p>
+						</div>
+					</div>
+				</div>
+				<h2><b>Research Areas</b></h2>
+				<p>Service-oriented computing, Software Adaptation, Formal methods, Cloud computing</p>
+				<h2><b>Contacts</b></h2>
+				<table class="table table-striped">
+					<tbody>
+						<tr>
+							<td><b>Mail</b></td>
+							<td>soldani_at_di.unipi.it</td>
+						</tr>
+						<tr>
+							<td><b>Voice</b></td>
+							<td>+39 050 221 3135</td>
+						</tr>
+						<tr>
+							<td><b>Address</b></td>
+							<td>Dipartimento di Informatica, Università di Pisa, Largo B. Pontecorvo 3, 56127 Pisa, Italy</td>
+						</tr>
+						<tr>
+							<td><b>Room</b></td>
+							<td>286</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="teaching" class="container-fluid content-pane tab-pane fade">
+			<div class="col-lg-12">
+				<div class="jumbotron">
+					<p style="font-size:200%"><b>Teaching assistant</b> @ <b><a href="http://www.di.unipi.it/scripts/PD2/corso.php?lang=en&cds=WDS-LM&anno=2017&id=34828" target="_blank">Programming for Data Science</a></b></p>
+					<p>MSc in Data Science and Business Informatics, University Of Pisa, a.y. 2017/2018.</p>
+				</div>
+				<div class="col-lg-12" style="text-align:center">
+					<a class="btn btn-sm btn-default" data-toggle="modal" data-target="#previous-ay-modal">Previous academic years</a>
+				</div>
+				<h3><b>Supervised theses</b></h3>
+				<table class="table table-striped table-hover">
+					<thead>
+						<tr>
+							<th>Candidate</th>
+							<th>Title</th>
+							<th>Programme</th>
+							<th>Date</th>
+							<th>Mark</th>
+						</tr>
+					</thead>
+					<tbody id="students-theses-list"></tbody>
+				</table>
+				<div id="previous-ay-modal" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title">Previous academic years</h4>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<thead>
+										<tr>
+											<th>a.y.</th>
+											<th>Teaching activity</th>
+										</tr>
+									</thead>
+									<tbody id="teaching-activities-list"></tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="research" class="container-fluid content-pane tab-pane fade">
+            <div id="publications" class="col-lg-12">
+                <h3><b>Publications</b></h3>
+                <div id="publication-list" class="list-group"></div>
+            </div>
+            <div id="program-committee" class="col-lg-12 container-fluid">
+                <h3><b>Memberships in Program Committees</b></h3>
+                <div id="program-committee-list" class="list-group"></div>
+            </div>
+            <div id="projects" class="col-lg-12 container-fluid">
+                <h3><b>Participations in Research Projects</b></h3>
+                <div id="projects-list" class="list-group"></div>
+            </div>
+		</div>
+		<div id="theses" class="container-fluid content-pane tab-pane fade">
+			<div style="padding-top:10px">
+				<h4><b>PhD Thesis</b></h4>
+				<p style="text-align:justify">
+					<b><a href="https://etd.adm.unipi.it/theses/available/etd-03242017-175216/unrestricted/thesis.pdf" target="_blank">Modelling, analysing and reusing composite cloud applications</a> (Università di Pisa, 2017)</b>
+					<br />
+					<b>Abstract.</b>
+					How to deploy and flexibly manage complex composite applications across heterogeneous cloud platforms is one of the main concerns in enterprise IT.
+					Vendor-agnostic models to specify the structure and management of composite cloud applications, as well as techniques for the analysis of specified applications, would permit verifying the accuracy of the design of such applications.
+					Furthermore, the availability of techniques for reusing composite cloud applications would free developers from the need of designing and developing multiple times recurring application components.
+					<br />
+					The objective of this thesis is to propose a suitable representation for composite cloud applications, and to develop analysis and reuse techniques based upon, but not limited to, such representation.
+					By relying on TOSCA (Topology and Orchestration Specification for Cloud Applications) as the reference language for syntactically describing composite cloud applications, we propose a simple modelling that permits specifying the behaviour of the management operations of an application's components.
+					We show how their management behaviour can be modelled by management protocols}, specified as finite state machines whose states and transitions are associated with conditions constraining the consistency of states and the executability of operations.
+					We illustrate how to derive the management behaviour of a composite cloud application by composing the protocols of its components, and how this permits automating various analyses concerning the management of a cloud application.    
+					Last, but not least, we show how management protocols can be easily extended to take also into account the potential occurrence of faults while managing composite cloud applications.
+					<br />
+					Additionally, to enact the reuse of existing solutions, we illustrate how to syntactically matchmake (fragments of) TOSCA-based applications with respect to desired components, and how to adapt matching applications to concretely implement such components.
+					We define two different notions of simulation between management protocols, and we exploit such notions to extend the proposed matchmaking and adaptation approaches by including the behaviour information in management protocols.
+				</p>
+				<br />
+				<h4><b>MSc Thesis</b></h4>
+				<p style="text-align:justify">
+					<b><a href="http://etd.adm.unipi.it/theses/available/etd-06192013-160939/unrestricted/MatchingCloudServicesWithTOSCA.pdf" target="_blank">Matching cloud services with TOSCA, and generating adapters if needed</a> (Università di Pisa, 2013)</b>
+					<br>
+					<b>Abstract.</b>
+					The OASIS TOSCA specification aims at enhancing the portability of cloud-based applications by defining a language to describe and manage service orchestrations across heterogeneous clouds.
+					A service template is defined as an orchestration of typed nodes, which can be instantiated by matching other service templates.
+					In this thesis, after defining the notion of <em>exact matching</em> between TOSCA service templates and node types, we define three other types of matching (<em>plug-in</em>, <em>flexible</em> and <em>white-box</em>), each permitting to ignore larger sets of non-relevant syntactic differences when type-checking service templates with respect to node types.
+					We also describe how service templates that plug-in, flexibly or white-box match node types can be suitably adapted so as to exactly match them.
+				</p>
+				<br />
+				<h4><b>BSc Thesis</b></h4>
+				<p style="text-align:justify">
+					<b><a href="files/bachelor.pdf" target="_blank">TCP Buffering in BSD</a> (Università di Pisa, 2011)</b>
+					<br>
+					<b>Abstract.</b>
+					I meccanismi di buffering, controllo di flusso e controllo di congestione del protocollo TCP vengono comunemente introdotti astraendo da dettagli implementativi.
+					L'obiettivo di questo documento è cercare di illustrare sinteticamente il modo in cui tali meccanismi sono effettivamente realizzati in una delle più note implementazioni di TCP (BSD), evidenziando alcune delle differenze rispetto alla descrizione di TCP fornita in uno dei testi di introduzione alle reti attualmente più diffusi.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mypage.css">
+    
+	<script type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="script/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/resources/publications.js"></script>
+    <script type="text/javascript" src="script/resources/program-committees.js"></script>
+    <script type="text/javascript" src="script/resources/research-projects.js"></script>
+    <script type="text/javascript" src="script/resources/students-theses.js"></script>
+    <script type="text/javascript" src="script/resources/teaching.js"></script>
+    <script type="text/javascript" src="script/mypage.js"></script>
+</body>
+</html>
