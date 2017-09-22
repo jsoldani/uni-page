@@ -9,7 +9,7 @@
 /*
  * This function fills the list of publications, by exploiting
  * the "publications" var in "publications.js"
- * [Usage: body.onlo
+ * [Usage: body.onload]
  */
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
