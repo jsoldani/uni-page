@@ -3,7 +3,8 @@
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
     loadTeachingList();
-    loadStudentsThesesList();
+    $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
+    
 });
 
 /*
@@ -222,7 +223,11 @@ function loadTeachingList() {
     });
 }
 
-function loadStudentsThesesList() {
+/*
+ * This function fills the list of supervised theses.
+ * [Usage: body.onload]
+ */
+function loadStudentsThesesList(studentsTheses) {
     var studentsThesesTable = $('#students-theses-list')[0];
     $.each(studentsTheses, function (i, st) {
         var stRow = document.createElement('tr');
