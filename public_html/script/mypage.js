@@ -1,14 +1,13 @@
 ﻿$(document).ready(function () {
 	$.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
-    loadProgramCommitteesList();
+    $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
     loadProjectList();
     loadTeachingList();
     loadStudentsThesesList();
 });
 
 /*
- * This function fills the list of publications, by exploiting
- * the "publications" var in "publications.js"
+ * This function fills the list of publications.
  * [Usage: body.onload]
  */
 function loadPublicationList(publications) {
@@ -93,11 +92,10 @@ function loadPublicationList(publications) {
 }
 
 /*
- * This function fills the list of program committee memberships,
- * by exploiting the "programCommittees" var in "program-committees.js"
+ * This function fills the list of program committee memberships.
  * [Usage: body.onload]
  */
-function loadProgramCommitteesList() {
+function loadProgramCommitteesList(programCommittees) {
     var pcList = $('#program-committee-list')[0];
 
     if (programCommittees.ongoing.length > 0) {
