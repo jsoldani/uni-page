@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
 	$.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
     $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
-    loadProjectList();
+    $.getJSON("https://raw.githubusercontent.com/jacopogiallo/uni-page/master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
     loadTeachingList();
     loadStudentsThesesList();
 });
@@ -158,12 +158,11 @@ function loadProgramCommitteesList(programCommittees) {
 }
 
 /*
- * This function fills the list of research projects, by exploiting
- * the "projects" var in "research-projects.js"
+ * This function fills the list of research projects.
  * [Usage: body.onload]
  */
-function loadProjectList() {
-    var projectsDiv = $("#projects-list")[0];
+function loadProjectList(projects) {
+	var projectsDiv = $("#projects-list")[0];
     $.each(projects, function (i) {
         // Creating project entry
         var proj = document.createElement("div");
