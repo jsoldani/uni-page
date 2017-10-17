@@ -1,13 +1,13 @@
 ﻿$(document).ready(function () {
 	// Change this URL to create your own "uni-page"
 	repoURL = "https://raw.githubusercontent.com/jacopogiallo/uni-page/";
-	
+
 	$.getJSON(repoURL + "master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
-    $.getJSON(repoURL + "public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
-    $.getJSON(repoURL + "master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
-    $.getJSON(repoURL + "master/public_html/resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
-    $.getJSON(repoURL + "master/public_html/resources/teaching.json", (data) => { loadTeachingList(data) });
-    
+  $.getJSON(repoURL + "master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
+  $.getJSON(repoURL + "master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
+  $.getJSON(repoURL + "master/public_html/resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
+  $.getJSON(repoURL + "master/public_html/resources/teaching.json", (data) => { loadTeachingList(data) });
+
 });
 
 /*
@@ -17,7 +17,7 @@
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
 
-    // For each year in which a paper has been published 
+    // For each year in which a paper has been published
     $.each(publications, function (i, pubYear) {
         var year = pubYear[0];
         var pubListYear = document.createElement('div');
@@ -87,7 +87,7 @@ function loadPublicationList(publications) {
 
             // Adding "where"
             if (pub.where) p.innerHTML += " " + pub.where + ".";
-            
+
             // Completing description with indexing info
             if (pub.notDBLP) p.innerHTML += " <em class='text-info'>[Not indexed on DBLP]</em>";
             if (pub.notGoogleScholar) p.innerHTML += " <em class='text-info'>[Not indexed on Google Scholar]</em>";
@@ -151,11 +151,18 @@ function loadProgramCommitteesList(programCommittees) {
         // Loading past PCs description
         $.each(programCommittees.past, function (i) {
             // Adding shortname only
-            var pastPC = document.createElement("a");
-            pastPC.innerHTML = "<b>" + this.shortname + "</b>";
-            pastPC.href = this.url;
-            pastPC.target = "_blank";
-            past.appendChild(pastPC);
+            var pastPC = document.createElement("div");
+						pastPC.setAttribute("style", "display:inline");
+						var pastPCname = document.createElement("a");
+            pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
+            if (this.url) {
+							pastPCname.href = this.url;
+							pastPCname.target = "_blank";
+            }
+						pastPC.innerHTML = "["; // + this.role + " @ "
+						pastPC.appendChild(pastPCname);
+						pastPC.innerHTML += "]"
+						past.appendChild(pastPC)
             past.innerHTML += " "
         });
     }
@@ -173,7 +180,7 @@ function loadProjectList(projects) {
         proj.id = "project-" + this.id;
         proj.className = "list-group-item";
         projectsDiv.appendChild(proj);
-        
+
         // Creating project description
         var p = document.createElement('p');
         proj.appendChild(p);
@@ -192,13 +199,13 @@ function loadProjectList(projects) {
         if (this.subtitle) completeTitle += ": " + this.subtitle;
         title.innerHTML = " <b>" + completeTitle + "</b>.";
         p.appendChild(title);
-        
+
         // Adding funder, grant, period
         p.innerHTML += " Funded by: <b>" + this.funder + "</b>";
         p.innerHTML += ", grant agreement: <b>" + this.grant + "</b>."
         p.innerHTML += " Duration: <b>" + this.period + "</b>.";
 
-      
+
     });
 }
 
