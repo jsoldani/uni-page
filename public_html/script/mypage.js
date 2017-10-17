@@ -153,15 +153,18 @@ function loadProgramCommitteesList(programCommittees) {
             // Adding shortname only
             var pastPC = document.createElement("div");
 						pastPC.setAttribute("style", "display:inline");
-						var pastPCname = document.createElement("a");
-            pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
-            if (this.url) {
+						if (this.url) {
+							var pastPCname = document.createElement("a");
+	            pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
 							pastPCname.href = this.url;
 							pastPCname.target = "_blank";
+							pastPC.innerHTML = "["; // + this.role + " @ "
+							pastPC.appendChild(pastPCname);
+							pastPC.innerHTML += "]"
             }
-						pastPC.innerHTML = "["; // + this.role + " @ "
-						pastPC.appendChild(pastPCname);
-						pastPC.innerHTML += "]"
+						else {
+							pastPC.innerHTML = "[<b>" + this.shortname + "</b>]"
+						}
 						past.appendChild(pastPC)
             past.innerHTML += " "
         });
