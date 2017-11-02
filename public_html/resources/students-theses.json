@@ -4,8 +4,7 @@
 	"title": "Ongoing",
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
-	"date": "",
-	"mark": ""
+	"date": ""
 }, {
 	"type": "MSc",
 	"candidate": "Stefano Russo",
@@ -13,16 +12,14 @@
 	"url": "https://etd.adm.unipi.it/theses/available/etd-07032017-174945/",
 	"programme": "MSc in Computer Science and Networking",
 	"university": "University of Pisa",
-	"date": "July 2017",
-	"mark": "103"
+	"date": "July 2017"
 }, {
 	"type": "BSc",
 	"candidate": "Antonio Di Tommaso",
 	"title": "Validating TOSCA Application Topologies",
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
-	"date": "July 2017",
-	"mark": "95"
+	"date": "July 2017"
 }, {
 	"type": "MSc",
 	"candidate": "Luca Rinaldi",
@@ -30,8 +27,7 @@
 	"url": "https://etd.adm.unipi.it/theses/available/etd-01262017-172524",
 	"programme": "MSc in Computer Science and Networking",
 	"university": "University of Pisa",
-	"date": "March 2017",
-	"mark": "109"
+	"date": "March 2017"
 }, {
 	"type": "MSc",
 	"candidate": "Davide Neri",
@@ -39,6 +35,5 @@
 	"url": "https://etd.adm.unipi.it/theses/available/etd-09202016-142954",
 	"programme": "MSc in Computer Science and Networking",
 	"university": "University of Pisa",
-	"date": "October 2016",
-	"mark": "108"
+	"date": "October 2016"
 }]

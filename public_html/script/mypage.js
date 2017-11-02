@@ -249,11 +249,6 @@ function loadStudentsThesesList(studentsTheses) {
         if (st.date) date.textContent = st.date;
         stRow.appendChild(date);
 
-        // Adding "mark"
-        var mark = document.createElement('td');
-        if (st.mark) mark.textContent = st.mark;
-        stRow.appendChild(mark);
-
         studentsThesesTable.appendChild(stRow)
     });
 }
