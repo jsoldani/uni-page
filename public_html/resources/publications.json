@@ -46,6 +46,11 @@
 		"accepted": "true"
 	}, {
 		"type": "Journal",
+		"title": "Orchestrating incomplete TOSCA applications with Docker",
+		"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
+		"submitted": "true"
+	}, {
+		"type": "Journal",
 		"title": "Enhancing the orchestration of multi-container Docker applications",
 		"author": "A. Brogi, C. Pahl, J. Soldani",
 		"submitted": "true"
