@@ -123,7 +123,7 @@ function loadProgramCommitteesList(programCommittees) {
             pc.appendChild(pcLabel);
 
             // Adding fullname
-            pc.innerHTML += " " + this.fullname;
+            pc.innerHTML += " " + this.role + " @ " + this.fullname;
 
             // Adding shortname
             pc.innerHTML += " ("
@@ -155,15 +155,15 @@ function loadProgramCommitteesList(programCommittees) {
 						pastPC.setAttribute("style", "display:inline");
 						if (this.url) {
 							var pastPCname = document.createElement("a");
-	            pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
+							pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
 							pastPCname.href = this.url;
 							pastPCname.target = "_blank";
-							pastPC.innerHTML = "["; // + this.role + " @ "
+							pastPC.innerHTML = "["
 							pastPC.appendChild(pastPCname);
-							pastPC.innerHTML += "]"
+							pastPC.innerHTML += ", " + this.role + "]"
             }
 						else {
-							pastPC.innerHTML = "[<b>" + this.shortname + "</b>]"
+							pastPC.innerHTML = "[<b>" + this.shortname + "</b>, " + this.role +"]"
 						}
 						past.appendChild(pastPC)
             past.innerHTML += " "
