@@ -1,12 +1,9 @@
 ﻿$(document).ready(function () {
-	// Change this URL to create your own "uni-page"
-	repoURL = "https://raw.githubusercontent.com/jacopogiallo/uni-page/";
-
-	$.getJSON(repoURL + "master/public_html/resources/publications.json", (data) => { loadPublicationList(data) });
-  $.getJSON(repoURL + "master/public_html/resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
-  $.getJSON(repoURL + "master/public_html/resources/research-projects.json", (data) => { loadProjectList(data) });
-  $.getJSON(repoURL + "master/public_html/resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
-  $.getJSON(repoURL + "master/public_html/resources/teaching.json", (data) => { loadTeachingList(data) });
+	$.getJSON("resources/publications.json", (data) => { loadPublicationList(data) });
+	$.getJSON("resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
+	$.getJSON("resources/research-projects.json", (data) => { loadProjectList(data) });
+	$.getJSON("resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
+	$.getJSON("resources/teaching.json", (data) => { loadTeachingList(data) });
 
 });
 
