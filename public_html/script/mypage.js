@@ -140,7 +140,7 @@ function loadProgramCommitteesList(programCommittees) {
     if (programCommittees.past.length > 0) {
         // Creating past PCs entry
         var past = document.createElement("div");
-        past.id = "ongoing-pc-list";
+        past.id = "past-pc-list";
         past.className = "list-group-item";
         past.innerHTML = "<h4 class='list-group-item-heading'><b>Past events</b></h4>";
         pcList.appendChild(past);
