@@ -15,12 +15,6 @@
 		"inpress": "true"
 	}, {
 		"type": "Workshop",
-		"title": "Container-based Support for Autonomic Data Stream Processing through the Fog",
-		"author": "A. Brogi, G. Mencagli, D. Neri, J. Soldani, M. Torquati",
-		"where": "1st International Workshop on Autonomic Solutions for Parallel and Distributed Data Stream Processing (Auto-DaSP 2017)",
-		"accepted": "true"
-	}, {
-		"type": "Workshop",
 		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
 		"author": "A. Brogi, L. Rinaldi, J. Soldani",
 		"where": "3rd International Workshop on Cloud Adoption and Migration (CloudWays 2017)",
@@ -46,8 +40,13 @@
 		"author": "A. Brogi, A. Canciani, J. Soldani",
 		"submitted": "true"
 	}, {
+		"type": "Journal",
+		"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
+		"author": "A. Brogi, L. Rinaldi, J. Soldani",
+		"submitted": "true"
+	}, {
 		"type": "Conference",
-		"title": "Sommelier: A tool for validating TOSCA application topologies ",
+		"title": "Sommelier: A tool for validating TOSCA application topologies",
 		"author": "A. Brogi, A. Di Tommaso, J. Soldani",
 		"submitted": "true"
 	}]],
@@ -95,6 +94,12 @@
 		"author": "A. Brogi, A. Canciani, D. Neri, L. Rinaldi, J. Soldani",
 		"where": "Microservices: Science and Engineering (MSE 2017)",
 		"url": "https://doi.org/10.1007/978-3-319-74781-1_16"
+	}, {
+		"type": "Workshop",
+		"title": "Container-based Support for Autonomic Data Stream Processing through the Fog",
+		"author": "A. Brogi, G. Mencagli, D. Neri, J. Soldani, M. Torquati",
+		"where": "1st International Workshop on Autonomic Solutions for Parallel and Distributed Data Stream Processing (Auto-DaSP 2017)",
+		"url": "https://doi.org/10.1007/978-3-319-75178-8_2"
 	}]],
 	["2016", [{
 		"type": "Journal",
