@@ -14,6 +14,12 @@
 		"where": "Science of Computer Programming",
 		"inpress": "true"
 	}, {
+		"type": "Journal",
+		"title": "Fault-aware management protocols for multi-component applications",
+		"author": "A. Brogi, A. Canciani, J. Soldani",
+		"where": "Journal of Systems and Software",
+		"accepted": "true"
+	}, {
 		"type": "Workshop",
 		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
 		"author": "A. Brogi, L. Rinaldi, J. Soldani",
@@ -33,11 +39,6 @@
 		"type": "Journal",
 		"title": "A microservice-based architecture for (customizable) analyses of Docker images",
 		"author": "A. Brogi, D. Neri, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Journal",
-		"title": "Fault-aware management protocols for multi-component applications",
-		"author": "A. Brogi, A. Canciani, J. Soldani",
 		"submitted": "true"
 	}, {
 		"type": "Journal",
