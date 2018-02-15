@@ -17,8 +17,9 @@
 		"type": "Journal",
 		"title": "Fault-aware management protocols for multi-component applications",
 		"author": "A. Brogi, A. Canciani, J. Soldani",
+		"url": "http://doi.org/10.1016/j.jss.2018.02.005",
 		"where": "Journal of Systems and Software",
-		"accepted": "true"
+		"inpress": "true"
 	}, {
 		"type": "Workshop",
 		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
