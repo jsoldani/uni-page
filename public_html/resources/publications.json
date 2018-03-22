@@ -15,11 +15,10 @@
 		"inpress": "true"
 	}, {
 		"type": "Journal",
-		"title": "Fault-aware management protocols for multi-component applications",
-		"author": "A. Brogi, A. Canciani, J. Soldani",
-		"url": "http://doi.org/10.1016/j.jss.2018.02.005",
-		"where": "Journal of Systems and Software",
-		"inpress": "true"
+		"title": "A microservice-based architecture for (customisable) analyses of Docker images",
+		"author": "A. Brogi, D. Neri, J. Soldani",
+		"where": "Software: Practice and Experience",
+		"accepted": "true"
 	}, {
 		"type": "Workshop",
 		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
@@ -38,11 +37,6 @@
 		"submitted": "true"
 	}, {
 		"type": "Journal",
-		"title": "A microservice-based architecture for (customizable) analyses of Docker images",
-		"author": "A. Brogi, D. Neri, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Journal",
 		"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
 		"author": "A. Brogi, L. Rinaldi, J. Soldani",
 		"submitted": "true"
@@ -54,11 +48,16 @@
 	}]],
 	["2018", [{
 		"type": "Journal",
+		"title": "Fault-aware management protocols for multi-component applications",
+		"author": "A. Brogi, A. Canciani, J. Soldani",
+		"url": "http://doi.org/10.1016/j.jss.2018.02.005",
+		"where": "Journal of Systems and Software, volume 139, pages 189-210"
+	}, {
+		"type": "Journal",
 		"title": "Analysing Multiple QoS Attributes in Parallel Design Patterns-based Applications",
 		"url": "http://dx.doi.org/10.1007/s10766-016-0476-8",
 		"author": "A. Brogi, M. Danelutto, D. De Sensi, A. Ibrahim, J. Soldani, M. Torquati",
-		"where": "International Journal of Parallel Programming, volume 46, issue 1, pages 81-100",
-		"inpress": "true"
+		"where": "International Journal of Parallel Programming, volume 46, issue 1, pages 81-100"
 	}]],
 	["2017", [{
 		"type": "Journal",
