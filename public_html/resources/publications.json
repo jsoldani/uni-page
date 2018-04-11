@@ -45,6 +45,16 @@
 		"title": "Sommelier: A tool for validating TOSCA application topologies",
 		"author": "A. Brogi, A. Di Tommaso, J. Soldani",
 		"submitted": "true"
+	}, {
+		"type": "Conference",
+		"title": "Helping your Docker images to spread based on explainable models",
+		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
+		"submitted": "true"
+	}, {
+		"type": "Conference",
+		"title": "Explaining Successful Dockers using Pattern Mining Analysis",
+		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
+		"submitted": "true"
 	}]],
 	["2018", [{
 		"type": "Journal",
