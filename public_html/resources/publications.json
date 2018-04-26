@@ -16,15 +16,10 @@
 	}, {
 		"type": "Journal",
 		"title": "A microservice-based architecture for (customisable) analyses of Docker images",
+		"url": "http://dx.doi.org/10.1002/spe.2583",
 		"author": "A. Brogi, D. Neri, J. Soldani",
 		"where": "Software: Practice and Experience",
-		"accepted": "true"
-	}, {
-		"type": "Workshop",
-		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
-		"author": "A. Brogi, L. Rinaldi, J. Soldani",
-		"where": "3rd International Workshop on Cloud Adoption and Migration (CloudWays 2017)",
-		"accepted": "true"
+		"inpress": "true"
 	}, {
 		"type": "Journal",
 		"title": "Orchestrating incomplete TOSCA applications with Docker",
@@ -111,6 +106,12 @@
 		"author": "A. Brogi, G. Mencagli, D. Neri, J. Soldani, M. Torquati",
 		"where": "1st International Workshop on Autonomic Solutions for Parallel and Distributed Data Stream Processing (Auto-DaSP 2017)",
 		"url": "https://doi.org/10.1007/978-3-319-75178-8_2"
+	}, {
+		"type": "Workshop",
+		"title": "TosKer: Orchestrating applications with TOSCA and Docker",
+		"author": "A. Brogi, L. Rinaldi, J. Soldani",
+		"where": "3rd International Workshop on Cloud Adoption and Migration (CloudWays 2017)",
+		"url": "https://doi.org/10.1007/978-3-319-79090-9_9"
 	}]],
 	["2016", [{
 		"type": "Journal",
