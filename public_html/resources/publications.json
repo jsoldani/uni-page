@@ -27,6 +27,11 @@
 		"submitted": "true"
 	}, {
 		"type": "Journal",
+		"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
+		"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
+		"submitted": "true"
+	}, {
+		"type": "Journal",
 		"title": "Enhancing the orchestration of multi-container Docker applications",
 		"author": "A. Brogi, C. Pahl, J. Soldani",
 		"submitted": "true"
