@@ -21,6 +21,12 @@
 		"where": "Software: Practice and Experience",
 		"inpress": "true"
 	}, {
+		"type": "Conference",
+		"title": "Explaining Successful Docker Images using Pattern Mining Analysis",
+		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
+		"where": "7th International Symposum 'From Data to Models and Back' (DataMod 2018)",
+		"accepted": "true"
+	}, {
 		"type": "Journal",
 		"title": "Orchestrating incomplete TOSCA applications with Docker",
 		"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
@@ -45,15 +51,15 @@
 		"title": "Sommelier: A tool for validating TOSCA application topologies",
 		"author": "A. Brogi, A. Di Tommaso, J. Soldani",
 		"submitted": "true"
+	},  {
+		"type": "Conference",
+		"title": "True concurrent management of multi-component applications",
+		"author": "A. Brogi, A. Canciani, J. Soldani",
+		"submitted": "true"
 	}, {
 		"type": "Conference",
 		"title": "Helping your Docker images to spread based on explainable models",
 		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
-		"submitted": "true"
-	}, {
-		"type": "Conference",
-		"title": "Explaining Successful Docker Images using Pattern Mining Analysis",
-		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
 		"submitted": "true"
 	}]],
 	["2018", [{
