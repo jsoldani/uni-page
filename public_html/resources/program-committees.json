@@ -1,12 +1,19 @@
 {
     "ongoing": [
         {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "ASPAI 2019",
+            "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
+            "where": "Barcelona, Spain",
+            "when": "20-22 March 2019"
+        }, {
             "type": "Workshop",
             "role": "Chair",
             "shortname": "FOCLASA 2018",
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
-            "when": "26 June, 2018",
+            "when": "26 June 2018",
             "url": "http://pages.di.unipi.it/foclasa"
         }
     ],
