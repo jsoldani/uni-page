@@ -8,13 +8,6 @@
 		"inpress": "true"
 	}, {
 		"type": "Journal",
-		"title": "Simulation-based matching of cloud applications",
-		"url": "https://doi.org/10.1016/j.scico.2017.06.001",
-		"author": "F. Bonchi, A. Brogi, A. Canciani, J. Soldani",
-		"where": "Science of Computer Programming",
-		"inpress": "true"
-	}, {
-		"type": "Journal",
 		"title": "A microservice-based architecture for (customisable) analyses of Docker images",
 		"url": "http://dx.doi.org/10.1002/spe.2583",
 		"author": "A. Brogi, D. Neri, J. Soldani",
@@ -68,6 +61,12 @@
 		"author": "A. Brogi, A. Canciani, J. Soldani",
 		"url": "http://doi.org/10.1016/j.jss.2018.02.005",
 		"where": "Journal of Systems and Software, volume 139, pages 189-210"
+	}, {
+		"type": "Journal",
+		"title": "Simulation-based matching of cloud applications",
+		"url": "https://doi.org/10.1016/j.scico.2017.06.001",
+		"author": "F. Bonchi, A. Brogi, A. Canciani, J. Soldani",
+		"where": "Science of Computer Programming, volume 162, pages 110-131"
 	}, {
 		"type": "Journal",
 		"title": "Analysing Multiple QoS Attributes in Parallel Design Patterns-based Applications",

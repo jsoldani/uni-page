@@ -85,10 +85,7 @@ function loadPublicationList(publications) {
             // Adding "where"
             if (pub.where) p.innerHTML += " " + pub.where + ".";
 
-            // Completing description with indexing info
-            if (pub.notDBLP) p.innerHTML += " <em class='text-info'>[Not indexed on DBLP]</em>";
-            if (pub.notGoogleScholar) p.innerHTML += " <em class='text-info'>[Not indexed on Google Scholar]</em>";
-        });
+		});
     });
 }
 
