@@ -26,7 +26,7 @@ function loadPublicationList(publications) {
         // For each published paper in a given year
         $.each(pubYear[1], function (j, pub) {
             // Creating publication entry
-            var p = document.createElement('span');
+            var p = document.createElement('p');
             pubListYear.appendChild(p);
 
             // Creating label for publication type
@@ -80,14 +80,21 @@ function loadPublicationList(publications) {
             p.appendChild(title);
 
             // Adding "where"
-            if (pub.where) p.innerHTML += " " + pub.where + ".";
-
+            if (pub.where) p.innerHTML += " " + pub.where + ".&nbsp;";
+			
+			// Adding "bib"
+			if (pub.bib) {
+				var bib = document.createElement("a");
+				var bibAddr = "resources/bibtex/" + pub.bib;
+				bib.setAttribute("style","color:gray");
+				bib.setAttribute("href",bibAddr);
+				bib.setAttribute("target","_blank");
+				bib.textContent = "[BibTex]";
+				p.appendChild(bib);
+			}
+			
 			// Adding "bestpaper"
             if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
-
-			// Adding "<br>"
-			var br = document.createElement("br");
-			pubListYear.appendChild(br)
 		});
     });
 }
@@ -110,7 +117,7 @@ function loadProgramCommitteesList(programCommittees) {
         // Loading ongoing PCs description
         $.each(programCommittees.ongoing, function (i) {
             // Creating PC description
-            var pc = document.createElement("span");
+            var pc = document.createElement("p");
             ongoing.appendChild(pc);
 
             // Adding project label
@@ -133,10 +140,6 @@ function loadProgramCommitteesList(programCommittees) {
 
             // Adding where, when
             pc.innerHTML += ", " + this.where + ", " + this.when + ".";
-			
-			// Adding "<br>"
-			var br = document.createElement("br");
-			ongoing.appendChild(br)
         });
 
     }
