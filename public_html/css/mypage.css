@@ -1,5 +1,10 @@
-﻿.content-pane {
-    padding-top: 50px;
+﻿body {
+    background-color: whitesmoke;
+}
+
+.content-pane {
+    padding-top: 70px;
+	background-color: white;
 }
 
 .label-ongoing {
