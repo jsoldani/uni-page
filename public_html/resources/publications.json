@@ -42,7 +42,7 @@
 		"submitted": "true",
 		"status": "Submitted for publication"
 	}]],
-	["Journal articles", [{
+	["Journal", [{
 		"type": "Journal",
 		"title": "Cloud Container Technologies: a State-of-the-Art Review",
 		"url": "https://doi.org/10.1109/TCC.2017.2702586",
@@ -254,7 +254,7 @@
 		"where": "12th International Workshop on Foundations of Coordination Languages and Self Adaptive systems (FOCLASA 2013)",
 		"bib": "matching-cloud-services-with-tosca.bib"
 	}]],
-	["Other", [{
+	["Misc", [{
 		"type": "Misc",
 		"url": "http://eprints.adm.unipi.it/2331/1/SBBLB15_-_TR.pdf",
 		"title": "TOSCA-MART: A Method for Adapting and Reusing Cloud Applications",

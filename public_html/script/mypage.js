@@ -17,60 +17,24 @@ function loadPublicationList(publications) {
     // For each type in which a paper has been published
     $.each(publications, function (i, pubType) {
         var type = pubType[0];
-        var pubListType = document.createElement('div');
-        pubListType.id = "research-" + type;
-        pubListType.className = "list-group-item";
-        pubListType.innerHTML = "<h4 class='list-group-item-heading'><b>" + type + "</b></h4>";
-        pubList.appendChild(pubListType);
-
+        
         // For each published paper in a given type
         $.each(pubType[1], function (j, pub) {
-            // Creating publication entry
-            var p = document.createElement('p');
-            pubListType.appendChild(p);
-
-            // Creating label for publication type
-            /*
-			var typeLabel = document.createElement('span');
-
-            if (type == "Ongoing") {
-                if (pub.accepted) typeLabel.textContent = "Accepted";
-                else if (pub.inpress) typeLabel.textContent = "In press";
-                else typeLabel.textContent = "Submitted";
-                typeLabel.className = "label label-ongoing";
-                p.className = "ongoing";
-            }
-            else {
-                typeLabel.textContent = pub.type;
-                switch (pub.type) {
-                    case "Book":
-                        typeLabel.className = "label label-warning";
-                        p.className = "book";
-                        break;
-                    case "Journal":
-                        typeLabel.className = "label label-danger";
-                        p.className = "journal";
-                        break;
-                    case "Conference":
-                        typeLabel.className = "label label-primary";
-                        p.className = "conference";
-                        break;
-                    case "Workshop":
-                        typeLabel.className = "label label-info";
-                        p.className = "workshop";
-                        break;
-                    default:
-                        typeLabel.className = "label label-default";
-                        p.className = "techrep";
-                        break;
-                }
-            }
-            p.appendChild(typeLabel);
-			*/
+			// WORKAROUND: Skip ongoing publications
+			if (type == "Ongoing")
+				return;
 			
+            // Creating publication entry
+            var p = document.createElement('div');
+			p.className = "list-group-item";
+            pubList.appendChild(p);
+
+
             // Adding "authors"
             p.innerHTML += " " + pub.author + ". ";
 
+			p.innerHTML += "<br>"
+			
             // Adding "title"
             var title = document.createElement('span');
             if (pub.url) {
@@ -81,11 +45,42 @@ function loadPublicationList(publications) {
             title.innerHTML = " <b>" + pub.title + ".</b>";
             p.appendChild(title);
 
+			p.appendChild(document.createElement("br"));
+			
             // Adding "where"
             if (pub.where) p.innerHTML += " " + pub.where + ".";
 			
 			// Adding space
 			p.innerHTML += "&nbsp;&nbsp;";
+
+            // Creating label for publication type
+            var typeLabel = document.createElement('span');
+			typeLabel.textContent = type;
+			switch (type) {
+                case "Journal":
+					typeLabel.className = "label label-danger";			
+                    break;
+                case "In proceedings":
+					typeLabel.className = "label label-primary";
+                    break;
+                default:
+					typeLabel.className = "label label-default";
+                    break;
+			}
+			p.appendChild(typeLabel);
+            
+			// Adding "status"
+			if(pub.status) {
+				var stat = document.createElement('span');
+				stat.textContent = pub.status;
+                stat.className = "label label-info";
+				p.appendChild(stat);
+            }
+			// Adding "bestpaper"
+            if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
+
+			
+			p.appendChild(document.createElement("br"));
 			
 			// Adding "bib"
 			if (pub.bib) {
@@ -94,19 +89,10 @@ function loadPublicationList(publications) {
 				bib.setAttribute("style","color:gray");
 				bib.setAttribute("href",bibAddr);
 				bib.setAttribute("target","_blank");
-				bib.textContent = "[BibTex]";
+				bib.innerHTML = "[BibTex]&nbsp;&nbsp;";
 				p.appendChild(bib);
 			}
 			
-			// Adding "status"
-			if(pub.status) {
-				var stat = document.createElement('span');
-				stat.textContent = pub.status;
-                stat.className = "label label-warning";
-				p.appendChild(stat);
-            }
-			// Adding "bestpaper"
-            if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
 		});
     });
 }
@@ -116,73 +102,54 @@ function loadPublicationList(publications) {
  * [Usage: body.onload]
  */
 function loadProgramCommitteesList(programCommittees) {
-    var pcList = $('#program-committee-list')[0];
-
+    var pcList = $('#pc-list')[0];
+	
+	// Forthcoming events
     if (programCommittees.ongoing.length > 0) {
-        // Creating ongoing PCs entry
-        var ongoing = document.createElement("div");
-        ongoing.id = "ongoing-pc-list";
-        ongoing.className = "list-group-item";
-        ongoing.innerHTML = "<h4 class='list-group-item-heading'><b>Forthcoming events</b></h4>";
-        pcList.appendChild(ongoing);
-
-        // Loading ongoing PCs description
         $.each(programCommittees.ongoing, function (i) {
-            // Creating PC description
-            var pc = document.createElement("p");
-            ongoing.appendChild(pc);
-
-            // Adding project label
-            var pcLabel = document.createElement("span");
-            pcLabel.className = "label label-default";
-            pcLabel.textContent = this.type;
-            pc.appendChild(pcLabel);
-
-            // Adding fullname
-            pc.innerHTML += " " + this.role + " @ " + this.fullname;
+			// Creating row for event
+			var e = document.createElement("div");
+			e.className = "list-group-item";
+			pcList.appendChild(e);
+			
+			// Adding role and fullname
+			e.innerHTML += " <b>" + this.role + "</b> @ " + this.fullname;
 
             // Adding shortname
-            pc.innerHTML += " ("
-            var pcShortname = document.createElement("a");
-            pcShortname.innerHTML = "<b>" + this.shortname + "</b>";
-            pcShortname.href = this.url;
-            pcShortname.target = "_blank";
-            pc.appendChild(pcShortname);
-            pc.innerHTML += ")"
+            e.innerHTML += " ("
+            var eShortname = document.createElement("a");
+            eShortname.innerHTML = "<b>" + this.shortname + "</b>";
+            eShortname.href = this.url;
+            eShortname.target = "_blank";
+            e.appendChild(eShortname);
+            e.innerHTML += ")"
 
             // Adding where, when
-            pc.innerHTML += ", " + this.where + ", " + this.when + ".";
+            e.innerHTML += ", " + this.where + ", " + this.when + ".&nbsp;&nbsp;";
+			
+			// Adding "forthcoming" label
+            var forthLabel = document.createElement('span');
+			forthLabel.textContent = "Forthcoming";
+			forthLabel.className = "label label-success";			
+			e.appendChild(forthLabel);
         });
 
     }
 
+	// Past events
     if (programCommittees.past.length > 0) {
         // Creating past PCs entry
         var past = document.createElement("div");
-        past.id = "past-pc-list";
         past.className = "list-group-item";
-        past.innerHTML = "<h4 class='list-group-item-heading'><b>Past events</b></h4>";
         pcList.appendChild(past);
-
+		
         // Loading past PCs description
         $.each(programCommittees.past, function (i) {
-            // Adding shortname only
-            var pastPC = document.createElement("div");
-						pastPC.setAttribute("style", "display:inline");
-						if (this.url) {
-							var pastPCname = document.createElement("a");
-							pastPCname.innerHTML = "<b>" + this.shortname + "</b>";
-							pastPCname.href = this.url;
-							pastPCname.target = "_blank";
-							pastPC.innerHTML = "["
-							pastPC.appendChild(pastPCname);
-							pastPC.innerHTML += ", " + this.role + "]"
-            }
-						else {
-							pastPC.innerHTML = "[<b>" + this.shortname + "</b>, " + this.role +"]"
-						}
-						past.appendChild(pastPC)
-            past.innerHTML += " "
+            // Adding role and shortname only
+			var e = document.createElement("span");
+			if(i>0) e.innerHTML += ",&nbsp;"; 
+			e.innerHTML += "<b>" + this.shortname + "</b>&nbsp;(" + this.role + ")";
+			past.appendChild(e);
         });
     }
 }
@@ -204,12 +171,6 @@ function loadProjectList(projects) {
         var p = document.createElement('span');
         proj.appendChild(p);
 
-        // Adding project label
-        var pLabel = document.createElement('span');
-        pLabel.className = "label label-default";
-        pLabel.textContent = this.type.toUpperCase();
-        p.appendChild(pLabel);
-
         // Adding project title/subtitle
         var title = document.createElement("a");
         title.href = this.home;
@@ -218,11 +179,16 @@ function loadProjectList(projects) {
         if (this.subtitle) completeTitle += ": " + this.subtitle;
         title.innerHTML = " <b>" + completeTitle + "</b>.";
         p.appendChild(title);
+		
+		p.appendChild(document.createElement("br"));
 
-        // Adding funder, grant, period
-        p.innerHTML += " Funded by: <b>" + this.funder + "</b>";
-        p.innerHTML += ", grant agreement: <b>" + this.grant + "</b>."
-        p.innerHTML += " Duration: <b>" + this.period + "</b>.";
+        // Adding funder, grant
+        p.innerHTML += "Funded by the " + this.funder + ", under grant agreement: " + this.grant + "."
+		
+		p.appendChild(document.createElement("br"));
+		
+		// Adding period
+        p.innerHTML += " Duration: " + this.period + ".";
 
 
     });
