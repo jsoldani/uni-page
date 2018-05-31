@@ -1,10 +1,11 @@
 ﻿body {
     background-color: whitesmoke;
+    padding-top: 65px;
 }
 
 .content-pane {
-    padding-top: 70px;
 	background-color: white;
+    padding-top: 5px;
 }
 
 .label-ongoing {
