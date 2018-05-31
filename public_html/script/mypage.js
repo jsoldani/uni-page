@@ -66,9 +66,6 @@ function loadPublicationList(publications) {
             }
             p.appendChild(typeLabel);
 
-            // Adding "bestpaper"
-            if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
-
             // Adding "authors"
             p.innerHTML += " " + pub.author + ". ";
 
@@ -84,6 +81,9 @@ function loadPublicationList(publications) {
 
             // Adding "where"
             if (pub.where) p.innerHTML += " " + pub.where + ".";
+
+			// Adding "bestpaper"
+            if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
 
 			// Adding "<br>"
 			var br = document.createElement("br");
