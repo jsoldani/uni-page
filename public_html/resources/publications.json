@@ -1,61 +1,62 @@
 [
 	["Ongoing", [{
 		"type": "Journal",
+		"title": "Orchestrating incomplete TOSCA applications with Docker",
+		"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}, {
+		"type": "Journal",
+		"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
+		"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}, {
+		"type": "Journal",
+		"title": "Enhancing the orchestration of multi-container Docker applications",
+		"author": "A. Brogi, C. Pahl, J. Soldani",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}, {
+		"type": "Journal",
+		"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
+		"author": "A. Brogi, L. Rinaldi, J. Soldani",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}, {
+		"type": "Conference",
+		"title": "Sommelier: A tool for validating TOSCA application topologies",
+		"author": "A. Brogi, A. Di Tommaso, J. Soldani",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	},  {
+		"type": "Conference",
+		"title": "True concurrent management of multi-component applications",
+		"author": "A. Brogi, A. Canciani, J. Soldani",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}, {
+		"type": "Conference",
+		"title": "Helping your Docker images to spread based on explainable models",
+		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
+		"submitted": "true",
+		"status": "Submitted for publication"
+	}]],
+	["Journal articles", [{
+		"type": "Journal",
 		"title": "Cloud Container Technologies: a State-of-the-Art Review",
 		"url": "https://doi.org/10.1109/TCC.2017.2702586",
 		"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
 		"where": "IEEE Transactions on Cloud Computing",
-		"inpress": "true"
+		"status": "In press"
 	}, {
 		"type": "Journal",
 		"title": "A microservice-based architecture for (customisable) analyses of Docker images",
 		"url": "http://dx.doi.org/10.1002/spe.2583",
 		"author": "A. Brogi, D. Neri, J. Soldani",
 		"where": "Software: Practice and Experience",
-		"inpress": "true"
+		"status": "In press"
 	}, {
-		"type": "Conference",
-		"title": "Explaining Successful Docker Images using Pattern Mining Analysis",
-		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
-		"where": "7th International Symposum 'From Data to Models and Back' (DataMod 2018)",
-		"accepted": "true"
-	}, {
-		"type": "Journal",
-		"title": "Orchestrating incomplete TOSCA applications with Docker",
-		"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Journal",
-		"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
-		"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
-		"submitted": "true"
-	}, {
-		"type": "Journal",
-		"title": "Enhancing the orchestration of multi-container Docker applications",
-		"author": "A. Brogi, C. Pahl, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Journal",
-		"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
-		"author": "A. Brogi, L. Rinaldi, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Conference",
-		"title": "Sommelier: A tool for validating TOSCA application topologies",
-		"author": "A. Brogi, A. Di Tommaso, J. Soldani",
-		"submitted": "true"
-	},  {
-		"type": "Conference",
-		"title": "True concurrent management of multi-component applications",
-		"author": "A. Brogi, A. Canciani, J. Soldani",
-		"submitted": "true"
-	}, {
-		"type": "Conference",
-		"title": "Helping your Docker images to spread based on explainable models",
-		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
-		"submitted": "true"
-	}]],
-	["2018", [{
 		"type": "Journal",
 		"title": "Fault-aware management protocols for multi-component applications",
 		"author": "A. Brogi, A. Canciani, J. Soldani",
@@ -76,14 +77,55 @@
 		"author": "A. Brogi, M. Danelutto, D. De Sensi, A. Ibrahim, J. Soldani, M. Torquati",
 		"where": "International Journal of Parallel Programming, volume 46, issue 1, pages 81-100",
 		"bib": "pasa.bib"
-	}]],
-	["2017", [{
+	}, {
 		"type": "Journal",
 		"title": "DrACO: Discovering Available Cloud Offerings",
 		"url": "http://dx.doi.org/10.1007/s00450-016-0332-5",
 		"author": "A. Brogi, P. Cifariello, J. Soldani",
 		"where": "Computer Science: Research & Development, volume 32, issue 3-4, pages 269-279",
 		"bib": "draco.bib"
+	}, {
+		"type": "Journal",
+		"title": "Finding available services in TOSCA-compliant clouds",
+		"url": "http://www.sciencedirect.com/science/article/pii/S0167642315002634",
+		"author": "A. Brogi, J. Soldani",
+		"where": "Science of Computer Programming, volumes 115-116, pages 177-198",
+		"bib": "finding-services-tosca.bib"
+	}, {
+		"type": "Journal",
+		"title": "ToscaMart: A Method for Adapting and Reusing Cloud Applications",
+		"url": "http://www.sciencedirect.com/science/article/pii/S0164121215002903",
+		"author": "J. Soldani, T. Binz, U. Breitenbuecher, F. Leymann, A. Brogi",
+		"where": "Journal of Systems and Software, volume 113, pages 395-406",
+		"bib": "toscamart.bib"
+	}, {
+		"type": "Journal",
+		"title": "A Petri net-based approach to model and analyze the management of cloud applications",
+		"url": "http://dx.doi.org/10.1007/978-3-662-53401-4_2",
+		"author": "A. Brogi, A. Canciani, J. Soldani, P. Wang",
+		"where": "Transactions on Petri Nets and other models of Concurrency, volume 11, pages 28-48",
+		"bib": "management-protocols-topnoc.bib"
+	}, {
+		"type": "Journal",
+		"title": "Adaptive management of applications across multiple clouds: The SeaClouds Approach",
+		"url": "http://www2.clei.org/cleiej/papers/v18i1p1.pdf",
+		"author": "A. Brogi, M. Fazzolari, A. Ibrahim, J. Soldani, P. Wang, J. Carrasco, J. Cubo, F. Duran, E. Pimentel, E. Di Nitto, F. D'Andria",
+		"where": "CLEI Electronic Journal, volume 18, number 1, pages 1-14",
+		"bib": "seaclouds-clei.bib"
+	}, {
+		"type": "Journal",
+		"url": "http://dl.acm.org/citation.cfm?id=2557844",
+		"title": "SeaClouds: a European project on seamless management of multi-cloud applications",
+		"author": "A. Brogi, A. Ibrahim, J. Soldani, J. Carrasco, J. Cubo, E. Pimentel, and F. D'Andria",
+		"where": "ACM SIGSOFT Software Engineering Notes, volume 39, issue 1, pages 1-4",
+		"bib": "seaclouds-sigsoft-sen.bib"
+	}]],
+	["In proceedings", [{
+		"type": "Conference",
+		"title": "Explaining Successful Docker Images using Pattern Mining Analysis",
+		"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
+		"where": "7th International Symposum 'From Data to Models and Back' (DataMod 2018)",
+		"status": "Accepted"
 	}, {
 		"type": "Conference",
 		"title": "Modelling the dynamic reconfiguration of application topologies, faults included",
@@ -133,28 +175,6 @@
 		"where": "3rd International Workshop on Cloud Adoption and Migration (CloudWays 2017)",
 		"url": "https://doi.org/10.1007/978-3-319-79090-9_9",
 		"bib": "tosker.bib"
-	}]],
-	["2016", [{
-		"type": "Journal",
-		"title": "Finding available services in TOSCA-compliant clouds",
-		"url": "http://www.sciencedirect.com/science/article/pii/S0167642315002634",
-		"author": "A. Brogi, J. Soldani",
-		"where": "Science of Computer Programming, volumes 115-116, pages 177-198",
-		"bib": "finding-services-tosca.bib"
-	}, {
-		"type": "Journal",
-		"title": "ToscaMart: A Method for Adapting and Reusing Cloud Applications",
-		"url": "http://www.sciencedirect.com/science/article/pii/S0164121215002903",
-		"author": "J. Soldani, T. Binz, U. Breitenbuecher, F. Leymann, A. Brogi",
-		"where": "Journal of Systems and Software, volume 113, pages 395-406",
-		"bib": "toscamart.bib"
-	}, {
-		"type": "Journal",
-		"title": "A Petri net-based approach to model and analyze the management of cloud applications",
-		"url": "http://dx.doi.org/10.1007/978-3-662-53401-4_2",
-		"author": "A. Brogi, A. Canciani, J. Soldani, P. Wang",
-		"where": "Transactions on Petri Nets and other models of Concurrency, volume 11, pages 28-48",
-		"bib": "management-protocols-topnoc.bib"
 	}, {
 		"type": "Conference",
 		"title": "SeaClouds: An Open Reference Architecture for Multi-cloud Governance",
@@ -177,14 +197,6 @@
 		"where": "5th European Conference on Service-Oriented and Cloud Computing (ESOCC 2016)",
 		"bestpaper": "true",
 		"bib": "fault-aware-management-protocols.bib"
-	}]],
-	["2015", [{
-		"type": "Journal",
-		"title": "Adaptive management of applications across multiple clouds: The SeaClouds Approach",
-		"url": "http://www2.clei.org/cleiej/papers/v18i1p1.pdf",
-		"author": "A. Brogi, M. Fazzolari, A. Ibrahim, J. Soldani, P. Wang, J. Carrasco, J. Cubo, F. Duran, E. Pimentel, E. Di Nitto, F. D'Andria",
-		"where": "CLEI Electronic Journal, volume 18, number 1, pages 1-14",
-		"bib": "seaclouds-clei.bib"
 	}, {
 		"type": "Conference",
 		"url": "http://link.springer.com/chapter/10.1007%2F978-3-319-24072-5_2",
@@ -199,14 +211,6 @@
 		"author": "Brogi, A. Canciani, J. Soldani, P. Wang",
 		"where": "International Workshop on Petri Nets and Software Engineering (PNSE 2015)",
 		"bib": "management-protocols-pn.bib"
-	}]],
-	["2014", [{
-		"type": "Journal",
-		"url": "http://dl.acm.org/citation.cfm?id=2557844",
-		"title": "SeaClouds: a European project on seamless management of multi-cloud applications",
-		"author": "A. Brogi, A. Ibrahim, J. Soldani, J. Carrasco, J. Cubo, E. Pimentel, and F. D'Andria",
-		"where": "ACM SIGSOFT Software Engineering Notes, volume 39, issue 1, pages 1-4",
-		"bib": "seaclouds-sigsoft-sen.bib"
 	}, {
 		"type": "Conference",
 		"url": "http://link.springer.com/chapter/10.1007%2F978-3-662-43652-3_19",
@@ -242,8 +246,7 @@
 		"author": "A. Brogi, J. Soldani",
 		"where": "CLOUDCYCLE Workshop @ INFORMATIK 2014",
 		"bib": "reusing-cloud-services-tosca.bib"
-	}]],
-	["2013", [{
+	}, {
 		"type": "Workshop",
 		"url": "http://link.springer.com/chapter/10.1007%2F978-3-642-45364-9_18",
 		"title": "Matching cloud services with TOSCA",
