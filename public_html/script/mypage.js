@@ -14,25 +14,26 @@
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
 
-    // For each year in which a paper has been published
-    $.each(publications, function (i, pubYear) {
-        var year = pubYear[0];
-        var pubListYear = document.createElement('div');
-        pubListYear.id = "research-" + year;
-        pubListYear.className = "list-group-item";
-        pubListYear.innerHTML = "<h4 class='list-group-item-heading'><b>" + year + "</b></h4>";
-        pubList.appendChild(pubListYear);
+    // For each type in which a paper has been published
+    $.each(publications, function (i, pubType) {
+        var type = pubType[0];
+        var pubListType = document.createElement('div');
+        pubListType.id = "research-" + type;
+        pubListType.className = "list-group-item";
+        pubListType.innerHTML = "<h4 class='list-group-item-heading'><b>" + type + "</b></h4>";
+        pubList.appendChild(pubListType);
 
-        // For each published paper in a given year
-        $.each(pubYear[1], function (j, pub) {
+        // For each published paper in a given type
+        $.each(pubType[1], function (j, pub) {
             // Creating publication entry
             var p = document.createElement('p');
-            pubListYear.appendChild(p);
+            pubListType.appendChild(p);
 
             // Creating label for publication type
-            var typeLabel = document.createElement('span');
+            /*
+			var typeLabel = document.createElement('span');
 
-            if (year == "Ongoing") {
+            if (type == "Ongoing") {
                 if (pub.accepted) typeLabel.textContent = "Accepted";
                 else if (pub.inpress) typeLabel.textContent = "In press";
                 else typeLabel.textContent = "Submitted";
@@ -65,7 +66,8 @@ function loadPublicationList(publications) {
                 }
             }
             p.appendChild(typeLabel);
-
+			*/
+			
             // Adding "authors"
             p.innerHTML += " " + pub.author + ". ";
 
@@ -80,7 +82,10 @@ function loadPublicationList(publications) {
             p.appendChild(title);
 
             // Adding "where"
-            if (pub.where) p.innerHTML += " " + pub.where + ".&nbsp;";
+            if (pub.where) p.innerHTML += " " + pub.where + ".";
+			
+			// Adding space
+			p.innerHTML += "&nbsp;&nbsp;";
 			
 			// Adding "bib"
 			if (pub.bib) {
@@ -93,6 +98,13 @@ function loadPublicationList(publications) {
 				p.appendChild(bib);
 			}
 			
+			// Adding "status"
+			if(pub.status) {
+				var stat = document.createElement('span');
+				stat.textContent = pub.status;
+                stat.className = "label label-warning";
+				p.appendChild(stat);
+            }
 			// Adding "bestpaper"
             if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
 		});
