@@ -26,7 +26,7 @@ function loadPublicationList(publications) {
         // For each published paper in a given year
         $.each(pubYear[1], function (j, pub) {
             // Creating publication entry
-            var p = document.createElement('p');
+            var p = document.createElement('span');
             pubListYear.appendChild(p);
 
             // Creating label for publication type
@@ -85,6 +85,9 @@ function loadPublicationList(publications) {
             // Adding "where"
             if (pub.where) p.innerHTML += " " + pub.where + ".";
 
+			// Adding "<br>"
+			var br = document.createElement("br");
+			pubListYear.appendChild(br)
 		});
     });
 }
@@ -107,7 +110,7 @@ function loadProgramCommitteesList(programCommittees) {
         // Loading ongoing PCs description
         $.each(programCommittees.ongoing, function (i) {
             // Creating PC description
-            var pc = document.createElement("p");
+            var pc = document.createElement("span");
             ongoing.appendChild(pc);
 
             // Adding project label
@@ -130,6 +133,10 @@ function loadProgramCommitteesList(programCommittees) {
 
             // Adding where, when
             pc.innerHTML += ", " + this.where + ", " + this.when + ".";
+			
+			// Adding "<br>"
+			var br = document.createElement("br");
+			ongoing.appendChild(br)
         });
 
     }
@@ -179,7 +186,7 @@ function loadProjectList(projects) {
         projectsDiv.appendChild(proj);
 
         // Creating project description
-        var p = document.createElement('p');
+        var p = document.createElement('span');
         proj.appendChild(p);
 
         // Adding project label
