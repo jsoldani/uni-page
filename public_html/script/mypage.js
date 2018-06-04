@@ -13,22 +13,21 @@
  */
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
+	var ongoingList = $('#ongoing-list')[0];
 
     // For each type in which a paper has been published
     $.each(publications, function (i, pubType) {
         var type = pubType[0];
-        
+
+		// Added to display publication counts in console
+		console.log(type + ": " +  pubType[1].length + " contributions");
+		
         // For each published paper in a given type
         $.each(pubType[1], function (j, pub) {
-			// WORKAROUND: Skip ongoing publications
-			if (type == "Ongoing")
-				return;
 			
             // Creating publication entry
             var p = document.createElement('div');
 			p.className = "list-group-item";
-            pubList.appendChild(p);
-
 
             // Adding "authors"
             p.innerHTML += " " + pub.author + ". ";
@@ -45,6 +44,17 @@ function loadPublicationList(publications) {
             title.innerHTML = " <b>" + pub.title + ".</b>";
             p.appendChild(title);
 
+			// If a paper is submitted, it is displayed separately
+			// (with only authors and title)
+			if (type == "Ongoing") {
+				ongoingList.appendChild(p);
+				return;
+			}
+			// Otherwise, it is displayed in "Publications"
+			// (with all other information)
+			pubList.appendChild(p);
+			
+			
 			p.appendChild(document.createElement("br"));
 			
             // Adding "where"
