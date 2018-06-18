@@ -16,94 +16,87 @@ function loadPublicationList(publications) {
 	var ongoingList = $('#ongoing-list')[0];
 
     // For each type in which a paper has been published
-    $.each(publications, function (i, pubType) {
-        var type = pubType[0];
+    $.each(publications, function (i, pub) {
+        
+		// Creating publication entry
+        var p = document.createElement('div');
+		p.className = "list-group-item";
 
-		// Added to display publication counts in console
-		console.log(type + ": " +  pubType[1].length + " contributions");
+        // Adding "authors"
+        p.innerHTML += " " + pub.author + ". ";
+
+		p.innerHTML += "<br>"
+			
+        // Adding "title"
+        var title = document.createElement('span');
+        if (pub.url) {
+			title = document.createElement('a');
+            title.href = pub.url;
+            title.target = "_blank";
+        }
+		title.innerHTML = " <b>" + pub.title + ".</b>";
+		p.appendChild(title);
+
+		// If a paper is submitted, it is displayed separately
+		// (with only authors and title)
+		if (pub.status == "Submitted") {
+			ongoingList.appendChild(p);
+			return;
+		}
+		// Otherwise, it is displayed in "Publications"
+		// (with all other information)
+		pubList.appendChild(p);
 		
-        // For each published paper in a given type
-        $.each(pubType[1], function (j, pub) {
-			
-            // Creating publication entry
-            var p = document.createElement('div');
-			p.className = "list-group-item";
+		
+		p.appendChild(document.createElement("br"));
+		
+		// Adding "where" and "year"
+		if (pub.where) p.innerHTML += pub.where;
+		if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
+		
+		// Adding space
+		p.innerHTML += "&nbsp;&nbsp;";
 
-            // Adding "authors"
-            p.innerHTML += " " + pub.author + ". ";
+		// Creating label for publication type
+		var typeLabel = document.createElement('span');
+		typeLabel.textContent = pub.type;
+		switch (pub.type) {
+			case "Journal":
+				typeLabel.className = "label label-danger";			
+				break;
+			case "In proceedings":
+				typeLabel.className = "label label-primary";
+				break;
+			default:
+				typeLabel.className = "label label-default";
+				break;
+		}
+		p.appendChild(typeLabel);
+		
+		// Adding "status"
+		if(pub.status) {
+			var stat = document.createElement('span');
+			stat.textContent = pub.status;
+			stat.className = "label label-info";
+			p.appendChild(stat);
+		}
+		// Adding "bestpaper"
+		if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
 
-			p.innerHTML += "<br>"
-			
-            // Adding "title"
-            var title = document.createElement('span');
-            if (pub.url) {
-                title = document.createElement('a');
-                title.href = pub.url;
-                title.target = "_blank";
-            }
-            title.innerHTML = " <b>" + pub.title + ".</b>";
-            p.appendChild(title);
-
-			// If a paper is submitted, it is displayed separately
-			// (with only authors and title)
-			if (type == "Ongoing") {
-				ongoingList.appendChild(p);
-				return;
-			}
-			// Otherwise, it is displayed in "Publications"
-			// (with all other information)
-			pubList.appendChild(p);
-			
-			
-			p.appendChild(document.createElement("br"));
-			
-            // Adding "where"
-            if (pub.where) p.innerHTML += " " + pub.where + ".";
-			
-			// Adding space
-			p.innerHTML += "&nbsp;&nbsp;";
-
-            // Creating label for publication type
-            var typeLabel = document.createElement('span');
-			typeLabel.textContent = type;
-			switch (type) {
-                case "Journal":
-					typeLabel.className = "label label-danger";			
-                    break;
-                case "In proceedings":
-					typeLabel.className = "label label-primary";
-                    break;
-                default:
-					typeLabel.className = "label label-default";
-                    break;
-			}
-			p.appendChild(typeLabel);
-            
-			// Adding "status"
-			if(pub.status) {
-				var stat = document.createElement('span');
-				stat.textContent = pub.status;
-                stat.className = "label label-info";
-				p.appendChild(stat);
-            }
-			// Adding "bestpaper"
-            if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
-
-			
-			p.appendChild(document.createElement("br"));
-			
-			// Adding "bib"
-			if (pub.bib) {
-				var bib = document.createElement("a");
-				var bibAddr = "resources/bibtex/" + pub.bib;
-				bib.setAttribute("style","color:gray");
-				bib.setAttribute("href",bibAddr);
-				bib.setAttribute("target","_blank");
-				bib.innerHTML = "[BibTex]&nbsp;&nbsp;";
-				p.appendChild(bib);
-			}
-			
-		});
+		
+		p.appendChild(document.createElement("br"));
+		
+		// Adding "bib"
+		if (pub.bib) {
+			var bib = document.createElement("a");
+			var bibAddr = "resources/bibtex/" + pub.bib;
+			bib.setAttribute("style","color:gray");
+			bib.setAttribute("href",bibAddr);
+			bib.setAttribute("target","_blank");
+			bib.innerHTML = "[BibTex]&nbsp;&nbsp;";
+			p.appendChild(bib);
+		}
+		
     });
 }
 
