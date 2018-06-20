@@ -232,6 +232,14 @@
 	"year": "2015",
 	"bib": "management-protocols-pn.bib"
 }, {
+	"type": "In proceedings",
+	"title": "Towards a full-edged support for designing cloud applications",
+	"author": "J. Soldani",
+	"where": "PhD Symposium at the 4th European Conference on Service-Oriented and Cloud Computing (PhD Symposium @ ESOCC 2015)",
+	"year": "2015",
+	"url": "http://wcms.itz.uni-halle.de/download.php?down=39405&elem=2902391",
+	"bib": "phd-symp-esocc.bib"
+}, {
 	"type": "Journal",
 	"url": "http://dl.acm.org/citation.cfm?id=2557844",
 	"title": "SeaClouds: a European project on seamless management of multi-cloud applications",
