@@ -1,12 +1,21 @@
 {
     "ongoing": [
         {
+            "type": "Workshop",
+            "role": "Chair",
+            "shortname": "FOCLASA 2019",
+            "fullname": "17th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
+            "where": "Oslo, Norway",
+            "when": "September 2019",
+            "url": "http://pages.di.unipi.it/foclasa"
+        }, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "SERVICE COMPUTATION 2019",
             "fullname": "11th International Conference on Advanced Service Computing",
             "where": "Venice, Italy",
-            "when": "5-9 May 2019"
+            "when": "5-9 May 2019",
+			"url": "http://www.iaria.org/conferences2019/SERVICECOMPUTATION19.html"
         }, {
             "type": "Conference",
             "role": "PC member",
@@ -14,18 +23,17 @@
             "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
             "where": "Barcelona, Spain",
             "when": "20-22 March 2019"
-        }, {
+        }
+    ],
+    "past": [
+        {
             "type": "Workshop",
             "role": "Chair",
             "shortname": "FOCLASA 2018",
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
-            "when": "26 June 2018",
-            "url": "http://pages.di.unipi.it/foclasa"
-        }
-    ],
-    "past": [
-        {
+            "when": "26 June 2018"
+        }, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "SERVICE COMPUTATION 2018",
