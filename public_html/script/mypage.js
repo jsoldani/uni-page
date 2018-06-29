@@ -15,9 +15,18 @@ function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
 	var ongoingList = $('#ongoing-list')[0];
 
+	var prevYear = 0;
     // For each type in which a paper has been published
     $.each(publications, function (i, pub) {
-        
+        // If year changes, add new year entry
+		if(pub.year && pub.year != prevYear) {
+			prevYear = pub.year;
+			var newYear = document.createElement('div');
+			newYear.className = "list-group-item disabled";
+			newYear.innerHTML = "<b>" + pub.year + "</b>";
+			pubList.appendChild(newYear);
+		}
+		
 		// Creating publication entry
         var p = document.createElement('div');
 		p.className = "list-group-item";

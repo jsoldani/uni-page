@@ -1,12 +1,5 @@
 [{
 	"type": "Journal",
-	"title": "Orchestrating incomplete TOSCA applications with Docker",
-	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
-	"submitted": "true",
-	"status": "Submitted",
-	"year": ""
-}, {
-	"type": "Journal",
 	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
 	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
 	"submitted": "true",
@@ -34,12 +27,12 @@
 	"status": "Submitted",
 	"year": ""
 },  {
-	"type": "In proceedings",
-	"title": "True concurrent management of multi-component applications",
-	"author": "A. Brogi, A. Canciani, J. Soldani",
-	"submitted": "true",
-	"status": "Submitted",
-	"year": ""
+	"type": "Journal",
+	"title": "Orchestrating incomplete TOSCA applications with Docker",
+	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
+	"where": "Science of Computer Programming",
+	"year": "2018",
+	"status": "Accepted"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
@@ -80,6 +73,13 @@
 	"where": "International Journal of Parallel Programming, volume 46, issue 1, pages 81-100",
 	"year": "2018",
 	"bib": "pasa.bib"
+}, {
+	"type": "In proceedings",
+	"title": "True concurrent management of multi-component applications",
+	"author": "A. Brogi, A. Canciani, J. Soldani",
+	"where": "7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018)",
+	"year": "2018",
+	"status": "Accepted"
 }, {
 	"type": "In proceedings",
 	"title": "Helping your Docker images to spread based on explainable models",
