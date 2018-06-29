@@ -2,36 +2,32 @@
 	"type": "Journal",
 	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
 	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
-	"submitted": "true",
 	"status": "Submitted",
-	"year": ""
+	"year": "Submitted for publication"
 }, {
 	"type": "Journal",
 	"title": "Enhancing the orchestration of multi-container Docker applications",
 	"author": "A. Brogi, C. Pahl, J. Soldani",
-	"submitted": "true",
 	"status": "Submitted",
-	"year": ""
+	"year": "Submitted for publication"
 }, {
 	"type": "Journal",
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
 	"author": "A. Brogi, L. Rinaldi, J. Soldani",
-	"submitted": "true",
 	"status": "Submitted",
-	"year": ""
+	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
 	"title": "Sommelier: A tool for validating TOSCA application topologies",
 	"author": "A. Brogi, A. Di Tommaso, J. Soldani",
-	"submitted": "true",
 	"status": "Submitted",
-	"year": ""
+	"year": "Submitted for publication"
 },  {
 	"type": "Journal",
 	"title": "Orchestrating incomplete TOSCA applications with Docker",
 	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
 	"where": "Science of Computer Programming",
-	"year": "2018",
+	"year": "",
 	"status": "Accepted"
 }, {
 	"type": "Journal",

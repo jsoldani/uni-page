@@ -13,10 +13,9 @@
  */
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
-	var ongoingList = $('#ongoing-list')[0];
-
-	var prevYear = 0;
-    // For each type in which a paper has been published
+	var prevYear = -1;
+    
+	// For each type in which a paper has been published
     $.each(publications, function (i, pub) {
         // If year changes, add new year entry
 		if(pub.year && pub.year != prevYear) {
@@ -46,15 +45,11 @@ function loadPublicationList(publications) {
 		title.innerHTML = " <b>" + pub.title + ".</b>";
 		p.appendChild(title);
 
+		pubList.appendChild(p);
+		
 		// If a paper is submitted, it is displayed separately
 		// (with only authors and title)
-		if (pub.status == "Submitted") {
-			ongoingList.appendChild(p);
-			return;
-		}
-		// Otherwise, it is displayed in "Publications"
-		// (with all other information)
-		pubList.appendChild(p);
+		if (pub.status == "Submitted") return;
 		
 		
 		p.appendChild(document.createElement("br"));
