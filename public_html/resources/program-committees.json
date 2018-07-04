@@ -19,6 +19,14 @@
         }, {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "MiDOS @ SAC 2019",
+            "fullname": "34rd ACM SIGAPP Symposium on Applied Computing, track on Microservices, DevOps, and Service-Oriented Architecture",
+            "where": "Limassol, Cyprus",
+            "when": "4-12 April 2019",
+			"url": "https://midos2019.sdu.dk"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "ASPAI 2019",
             "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
             "where": "Barcelona, Spain",
