@@ -11,18 +11,19 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
-	"type": "Journal",
-	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
-	"author": "A. Brogi, L. Rinaldi, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "Sommelier: A tool for validating TOSCA application topologies",
 	"author": "A. Brogi, A. Di Tommaso, J. Soldani",
 	"status": "Submitted",
 	"year": "Submitted for publication"
-},  {
+}, {
+	"type": "Journal",
+	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
+	"author": "A. Brogi, L. Rinaldi, J. Soldani",
+	"where": "Software: Practice and Experience",
+	"status": "Accepted",
+	"year": ""
+}, {
 	"type": "Journal",
 	"title": "Orchestrating incomplete TOSCA applications with Docker",
 	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
