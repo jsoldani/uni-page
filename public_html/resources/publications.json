@@ -43,9 +43,9 @@
 	"title": "A microservice-based architecture for (customisable) analyses of Docker images",
 	"url": "http://dx.doi.org/10.1002/spe.2583",
 	"author": "A. Brogi, D. Neri, J. Soldani",
-	"where": "Software: Practice and Experience",
-	"status": "In press",
-	"year": ""
+	"where": "Software: Practice and Experience, volume 48, issue 8,  pages 1461-1474, 2018",
+	"year": "2018",
+	"bib": "dockeranalyser.bib"
 }, {
 	"type": "Journal",
 	"title": "Fault-aware management protocols for multi-component applications",
