@@ -154,8 +154,8 @@ function loadProgramCommitteesList(programCommittees) {
         $.each(programCommittees.past, function (i) {
             // Adding role and shortname only
 			var e = document.createElement("span");
-			if(i>0) e.innerHTML += ",&nbsp;"; 
-			e.innerHTML += "<b>" + this.shortname + "</b>&nbsp;(" + this.role + ")";
+			if(i>0) e.innerHTML += "<br>"; 
+			e.innerHTML += this.role + " @ " + this.shortname;
 			past.appendChild(e);
         });
     }

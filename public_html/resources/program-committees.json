@@ -2,7 +2,7 @@
     "ongoing": [
         {
             "type": "Workshop",
-            "role": "Chair",
+            "role": "Program chair",
             "shortname": "FOCLASA 2019",
             "fullname": "17th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Oslo, Norway",
@@ -36,7 +36,7 @@
     "past": [
         {
             "type": "Workshop",
-            "role": "Chair",
+            "role": "Program chair",
             "shortname": "FOCLASA 2018",
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
