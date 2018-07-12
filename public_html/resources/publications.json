@@ -91,7 +91,7 @@
 	"title": "Sommelier: A tool for validating TOSCA application topologies",
 	"url": "http://dx.doi.org/10.1007/978-3-319-94764-8_1",
 	"author": "A. Brogi, A. Di Tommaso, J. Soldani",
-	"where": "Model-Driven Engineering and Software Development (MODELSWARD 2017 - extended revised papers)",
+	"where": "Model-Driven Engineering and Software Development (MODELSWARD 2017), Revised selected papers",
 	"year": "2018",
 	"bib": "sommelier-ccis.bib"
 }, {
