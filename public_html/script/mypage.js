@@ -1,10 +1,13 @@
 ﻿$(document).ready(function () {
+	// Display active tab from hash 
+	$('[href="' + window.location.hash + '"]').tab('show');
+
+	// Fill tabs with data
 	$.getJSON("resources/publications.json", (data) => { loadPublicationList(data) });
 	$.getJSON("resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
 	$.getJSON("resources/research-projects.json", (data) => { loadProjectList(data) });
 	$.getJSON("resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
 	$.getJSON("resources/teaching.json", (data) => { loadTeachingList(data) });
-
 });
 
 /*
