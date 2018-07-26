@@ -20,13 +20,6 @@
 	"year": ""
 }, {
 	"type": "Journal",
-	"title": "Orchestrating incomplete TOSCA applications with Docker",
-	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
-	"where": "Science of Computer Programming",
-	"status": "In press",
-	"year": ""
-}, {
-	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
 	"url": "https://doi.org/10.1109/TCC.2017.2702586",
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
@@ -41,6 +34,13 @@
 	"where": "Software: Practice and Experience, volume 48, issue 8,  pages 1461-1474",
 	"year": "2018",
 	"bib": "dockeranalyser.bib"
+}, {
+	"type": "Journal",
+	"title": "Orchestrating incomplete TOSCA applications with Docker",
+	"author": "A. Brogi, D. Neri, L. Rinaldi, J. Soldani",
+	"where": "Science of Computer Programming, volume 166, pages 194-213",
+	"year": "2018",
+	"bib": "toskeriser-extended.bib"
 }, {
 	"type": "Journal",
 	"title": "Fault-aware management protocols for multi-component applications",
