@@ -6,6 +6,12 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
+	"title": "On modelling and refactoring microservice-based applications",
+	"author": "A. Brogi, D. Neri, J. Soldani",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "In proceedings",
 	"title": "On enhancing the orchestration of multi-container Docker applications",
 	"author": "A. Brogi, C. Pahl, J. Soldani",
 	"status": "Submitted",
