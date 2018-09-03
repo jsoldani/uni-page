@@ -34,13 +34,6 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "True concurrent management of multi-component applications",
-	"author": "A. Brogi, A. Canciani, J. Soldani",
-	"where": "7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018)",
-	"year": "Accepted for publication",
-	"status": "Accepted"
-}, {
-	"type": "In proceedings",
 	"title": "Helping your Docker images to spread based on explainable models",
 	"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
 	"where": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2018)",
@@ -93,6 +86,14 @@
 	"where": "International Journal of Parallel Programming, volume 46, issue 1, pages 81-100",
 	"year": "2018",
 	"bib": "pasa.bib"
+}, {
+	"type": "In proceedings",
+	"title": "True concurrent management of multi-component applications",
+	"url": "https://doi.org/10.1007/978-3-319-99819-0_2",
+	"author": "A. Brogi, A. Canciani, J. Soldani",
+	"where": "7th European Conference on Service-Oriented and Cloud Computing (ESOCC 2018)",
+	"year": "2018",
+	"bib": "true-concurrent-management-protocols.bib"
 }, {
 	"type": "Journal",
 	"title": "DrACO: Discovering Available Cloud Offerings",
