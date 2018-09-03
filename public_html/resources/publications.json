@@ -5,18 +5,6 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
-	"type": "In proceedings",
-	"title": "On modelling and refactoring microservice-based applications",
-	"author": "A. Brogi, D. Neri, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "On enhancing the orchestration of multi-container Docker applications",
-	"author": "A. Brogi, C. Pahl, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "Journal",
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
 	"url": "https://doi.org/10.1002/spe.2625",
@@ -44,6 +32,13 @@
 	"title": "Explaining Successful Docker Images using Pattern Mining Analysis",
 	"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi",
 	"where": "7th International Symposum 'From Data to Models and Back' (DataMod 2018)",
+	"year": "Accepted for publication",
+	"status": "Accepted"
+}, {
+	"type": "In proceedings",
+	"title": "On enhancing the orchestration of multi-container Docker applications",
+	"author": "A. Brogi, C. Pahl, J. Soldani",
+	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "Accepted"
 }, {
