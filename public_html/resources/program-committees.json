@@ -31,6 +31,14 @@
             "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
             "where": "Barcelona, Spain",
             "when": "20-22 March 2019"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "TeC4C 2018",
+            "fullname": "1st International Workshop on ​Technology Convergence for Smart Cities",
+            "where": "Philadelphia, USA",
+            "when": "18-20 October 2018",
+			"url": "http://tec4c2018.netsons.org/" 
         }
     ],
     "past": [
