@@ -221,14 +221,16 @@ function loadStudentsThesesList(studentsTheses) {
         // Adding "title"
         var title = document.createElement('td');
         var titleLabel = document.createElement('span')
-        if (st.url) {
-            titleLabel = document.createElement('a');
-            titleLabel.href = st.url;
-            titleLabel.target = "_blank";
-            titleLabel.style = 'text-decoration:none';
-        }
         titleLabel.innerHTML = " <b>" + st.title + "</b>";
-        title.appendChild(titleLabel)
+		title.appendChild(titleLabel);
+        if (st.url) {
+            titleLink = document.createElement('a');
+			titleLink.innerHTML = "&nbsp; <b>&#128462;</b>";
+            titleLink.href = st.url;
+            titleLink.target = "_blank";
+            titleLink.style = 'text-decoration:none';
+			title.appendChild(titleLink)
+        }
         stRow.appendChild(title);
 
         // Adding "programme"
