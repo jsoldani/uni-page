@@ -221,11 +221,12 @@ function loadStudentsThesesList(studentsTheses) {
         // Adding "title"
         var title = document.createElement('td');
         var titleLabel = document.createElement('span')
-        titleLabel.innerHTML = " <b>" + st.title + "</b>";
+        titleLabel.innerHTML = " <b>" + st.title + "</b>&nbsp;";
 		title.appendChild(titleLabel);
         if (st.url) {
             titleLink = document.createElement('a');
-			titleLink.innerHTML = "&nbsp; <b>&#128462;</b>";
+			titleLink.className = "label label-default";
+			titleLink.innerHTML = "PDF";
             titleLink.href = st.url;
             titleLink.target = "_blank";
             titleLink.style = 'text-decoration:none';
