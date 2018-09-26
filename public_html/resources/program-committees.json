@@ -30,7 +30,8 @@
             "shortname": "ASPAI 2019",
             "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
             "where": "Barcelona, Spain",
-            "when": "20-22 March 2019"
+            "when": "20-22 March 2019",
+			"url": "http://www.aspai-conference.com"
         }, {
             "type": "Conference",
             "role": "PC member",
