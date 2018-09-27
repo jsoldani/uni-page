@@ -66,7 +66,8 @@
 	"url": "http://doi.org/10.1016/j.jss.2018.02.005",
 	"where": "Journal of Systems and Software, volume 139, pages 189-210",
 	"year": "2018",
-	"bib": "fault-aware-management-protocols-jss.bib"
+	"bib": "fault-aware-management-protocols-jss.bib",
+	"preprint": "fault-aware-management-protocols.pdf"
 }, {
 	"type": "Journal",
 	"title": "Simulation-based matching of cloud applications",
