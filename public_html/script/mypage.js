@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
 	// Display active tab from hash 
+	if(!window.location.hash) window.location.hash = "#home";
 	$('[href="' + window.location.hash + '"]').tab('show');
 
 	// Fill tabs with data

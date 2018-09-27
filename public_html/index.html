@@ -30,7 +30,7 @@
             </div>
             <div class="collapse navbar-collapse" id="collapsed-menu">
                 <ul class="nav navbar-nav">
-                    <li id="home-nav" class="nav-item active"><a href="#home" data-toggle="tab" aria-expanded="true" onclick="window.history.pushState(null,null,window.location.origin + window.location.pathname +'#home');">Home</a></li>
+                    <li id="main-nav" class="nav-item"><a href="#home" data-toggle="tab" aria-expanded="true" onclick="window.history.pushState(null,null,window.location.origin + window.location.pathname +'#home');">Home</a></li>
                     <li id="research-nav" class="nav-item"><a href="#research" data-toggle="tab" aria-expanded="false" onclick="window.history.pushState(null,null,window.location.origin + window.location.pathname +'#research');">Research</a></li>
                     <li id="teaching-nav" class="nav-item"><a href="#teaching" data-toggle="tab" aria-expanded="false" onclick="window.history.pushState(null,null,window.location.origin + window.location.pathname +'#teaching');">Teaching</a></li>
                     <li id="see-also-nav" class="nav-item dropdown">
@@ -56,7 +56,52 @@
         </div>
     </nav>
 	<div class="tab-content col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-		<div id="home" class="container-fluid content-pane tab-pane fade in active">
+		<div id="loader" class="container-fluid content-pane tab-pane fade in active" style="padding: 100px">
+			<div class="center-block loader"></div>
+		</div>
+		<div id="theses" class="container-fluid content-pane tab-pane fade">
+			<div style="padding-top:10px">
+				<h4><b>PhD Thesis</b></h4>
+				<p style="text-align:justify">
+					<b>Modelling, analysing and reusing composite cloud applications (Università di Pisa, 2017 - <a href="https://etd.adm.unipi.it/theses/available/etd-03242017-175216/unrestricted/thesis.pdf" target="_blank">PDF</a>)</b>
+					<br />
+					<b>Abstract.</b>
+					How to deploy and flexibly manage complex composite applications across heterogeneous cloud platforms is one of the main concerns in enterprise IT.
+					Vendor-agnostic models to specify the structure and management of composite cloud applications, as well as techniques for the analysis of specified applications, would permit verifying the accuracy of the design of such applications.
+					Furthermore, the availability of techniques for reusing composite cloud applications would free developers from the need of designing and developing multiple times recurring application components.
+					<br />
+					The objective of this thesis is to propose a suitable representation for composite cloud applications, and to develop analysis and reuse techniques based upon, but not limited to, such representation.
+					By relying on TOSCA (Topology and Orchestration Specification for Cloud Applications) as the reference language for syntactically describing composite cloud applications, we propose a simple modelling that permits specifying the behaviour of the management operations of an application's components.
+					We show how their management behaviour can be modelled by <em>management protocols</em>, specified as finite state machines whose states and transitions are associated with conditions constraining the consistency of states and the executability of operations.
+					We illustrate how to derive the management behaviour of a composite cloud application by composing the protocols of its components, and how this permits automating various analyses concerning the management of a cloud application.    
+					Last, but not least, we show how management protocols can be easily extended to take also into account the potential occurrence of faults while managing composite cloud applications.
+					<br />
+					Additionally, to enact the reuse of existing solutions, we illustrate how to syntactically matchmake (fragments of) TOSCA-based applications with respect to desired components, and how to adapt matching applications to concretely implement such components.
+					We define two different notions of simulation between management protocols, and we exploit such notions to extend the proposed matchmaking and adaptation approaches by including the behaviour information in management protocols.
+				</p>
+				<br />
+				<h4><b>MSc Thesis</b></h4>
+				<p style="text-align:justify">
+					<b>Matching cloud services with TOSCA, and generating adapters if needed (Università di Pisa, 2013 - <a href="http://etd.adm.unipi.it/theses/available/etd-06192013-160939/unrestricted/MatchingCloudServicesWithTOSCA.pdf" target="_blank">PDF</a>)</b>
+					<br>
+					<b>Abstract.</b>
+					The OASIS TOSCA specification aims at enhancing the portability of cloud-based applications by defining a language to describe and manage service orchestrations across heterogeneous clouds.
+					A service template is defined as an orchestration of typed nodes, which can be instantiated by matching other service templates.
+					In this thesis, after defining the notion of <em>exact matching</em> between TOSCA service templates and node types, we define three other types of matching (<em>plug-in</em>, <em>flexible</em> and <em>white-box</em>), each permitting to ignore larger sets of non-relevant syntactic differences when type-checking service templates with respect to node types.
+					We also describe how service templates that plug-in, flexibly or white-box match node types can be suitably adapted so as to exactly match them.
+				</p>
+				<br />
+				<h4><b>BSc Thesis</b></h4>
+				<p style="text-align:justify">
+					<b>TCP Buffering in BSD (Università di Pisa, 2011)</b>
+					<br>
+					<b>Abstract.</b>
+					I meccanismi di buffering, controllo di flusso e controllo di congestione del protocollo TCP vengono comunemente introdotti astraendo da dettagli implementativi.
+					L'obiettivo di questo documento è cercare di illustrare sinteticamente il modo in cui tali meccanismi sono effettivamente realizzati in una delle più note implementazioni di TCP (BSD), evidenziando alcune delle differenze rispetto alla descrizione di TCP fornita in uno dei testi di introduzione alle reti attualmente più diffusi.
+				</p>
+			</div>
+		</div>
+		<div id="home" class="container-fluid content-pane tab-pane fade">
 			<div class="jumbotron">
 				<div class="row">
 					<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-2 col-lg-offset-0">
@@ -162,56 +207,14 @@
 				</div>
             </div>
 		</div>
-		<div id="theses" class="container-fluid content-pane tab-pane fade">
-			<div style="padding-top:10px">
-				<h4><b>PhD Thesis</b></h4>
-				<p style="text-align:justify">
-					<b>Modelling, analysing and reusing composite cloud applications (Università di Pisa, 2017 - <a href="https://etd.adm.unipi.it/theses/available/etd-03242017-175216/unrestricted/thesis.pdf" target="_blank">PDF</a>)</b>
-					<br />
-					<b>Abstract.</b>
-					How to deploy and flexibly manage complex composite applications across heterogeneous cloud platforms is one of the main concerns in enterprise IT.
-					Vendor-agnostic models to specify the structure and management of composite cloud applications, as well as techniques for the analysis of specified applications, would permit verifying the accuracy of the design of such applications.
-					Furthermore, the availability of techniques for reusing composite cloud applications would free developers from the need of designing and developing multiple times recurring application components.
-					<br />
-					The objective of this thesis is to propose a suitable representation for composite cloud applications, and to develop analysis and reuse techniques based upon, but not limited to, such representation.
-					By relying on TOSCA (Topology and Orchestration Specification for Cloud Applications) as the reference language for syntactically describing composite cloud applications, we propose a simple modelling that permits specifying the behaviour of the management operations of an application's components.
-					We show how their management behaviour can be modelled by <em>management protocols</em>, specified as finite state machines whose states and transitions are associated with conditions constraining the consistency of states and the executability of operations.
-					We illustrate how to derive the management behaviour of a composite cloud application by composing the protocols of its components, and how this permits automating various analyses concerning the management of a cloud application.    
-					Last, but not least, we show how management protocols can be easily extended to take also into account the potential occurrence of faults while managing composite cloud applications.
-					<br />
-					Additionally, to enact the reuse of existing solutions, we illustrate how to syntactically matchmake (fragments of) TOSCA-based applications with respect to desired components, and how to adapt matching applications to concretely implement such components.
-					We define two different notions of simulation between management protocols, and we exploit such notions to extend the proposed matchmaking and adaptation approaches by including the behaviour information in management protocols.
-				</p>
-				<br />
-				<h4><b>MSc Thesis</b></h4>
-				<p style="text-align:justify">
-					<b>Matching cloud services with TOSCA, and generating adapters if needed (Università di Pisa, 2013 - <a href="http://etd.adm.unipi.it/theses/available/etd-06192013-160939/unrestricted/MatchingCloudServicesWithTOSCA.pdf" target="_blank">PDF</a>)</b>
-					<br>
-					<b>Abstract.</b>
-					The OASIS TOSCA specification aims at enhancing the portability of cloud-based applications by defining a language to describe and manage service orchestrations across heterogeneous clouds.
-					A service template is defined as an orchestration of typed nodes, which can be instantiated by matching other service templates.
-					In this thesis, after defining the notion of <em>exact matching</em> between TOSCA service templates and node types, we define three other types of matching (<em>plug-in</em>, <em>flexible</em> and <em>white-box</em>), each permitting to ignore larger sets of non-relevant syntactic differences when type-checking service templates with respect to node types.
-					We also describe how service templates that plug-in, flexibly or white-box match node types can be suitably adapted so as to exactly match them.
-				</p>
-				<br />
-				<h4><b>BSc Thesis</b></h4>
-				<p style="text-align:justify">
-					<b>TCP Buffering in BSD (Università di Pisa, 2011)</b>
-					<br>
-					<b>Abstract.</b>
-					I meccanismi di buffering, controllo di flusso e controllo di congestione del protocollo TCP vengono comunemente introdotti astraendo da dettagli implementativi.
-					L'obiettivo di questo documento è cercare di illustrare sinteticamente il modo in cui tali meccanismi sono effettivamente realizzati in una delle più note implementazioni di TCP (BSD), evidenziando alcune delle differenze rispetto alla descrizione di TCP fornita in uno dei testi di introduzione alle reti attualmente più diffusi.
-				</p>
-			</div>
-		</div>
 	</div>
 	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/mypage.css">
     
-	<script async type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
-    <script async type="text/javascript" src="script/lib/bootstrap.min.js"></script>
-    <script async type="text/javascript" src="script/mypage.js"></script>
+	<script type="text/javascript" src="script/lib/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="script/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/mypage.js"></script>
 
 </body>
 </html>
