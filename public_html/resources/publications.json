@@ -20,7 +20,8 @@
 	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
 	"where": "Journal of Systems and Software",
 	"status": "Accepted",
-	"year": "Accepted for publication"
+	"year": "Accepted for publication",
+	"preprint": "microservices-pains-gains.pdf"
 }, {
 	"type": "In proceedings",
 	"title": "Helping your Docker images to spread based on explainable models",

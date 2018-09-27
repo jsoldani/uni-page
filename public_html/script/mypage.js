@@ -103,7 +103,17 @@ function loadPublicationList(publications) {
 			bib.innerHTML = "[BibTex]&nbsp;&nbsp;";
 			p.appendChild(bib);
 		}
-		
+				
+		// Adding "preprint"
+		if (pub.preprint) {
+			var preprint = document.createElement("a");
+			var preprintAddr = "resources/preprints/" + pub.preprint;
+			preprint.setAttribute("style","color:gray");
+			preprint.setAttribute("href",preprintAddr);
+			preprint.setAttribute("target","_blank");
+			preprint.innerHTML = "[Preprint version]&nbsp;&nbsp;";
+			p.appendChild(preprint);
+		}
     });
 }
 
