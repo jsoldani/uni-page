@@ -100,8 +100,9 @@ function loadPublicationList(publications) {
 			bib.setAttribute("style","color:gray");
 			bib.setAttribute("href",bibAddr);
 			bib.setAttribute("target","_blank");
-			bib.innerHTML = "[BibTex]&nbsp;&nbsp;";
+			bib.innerHTML = "[BibTex]";
 			p.appendChild(bib);
+			p.innerHTML += "&nbsp;&nbsp;"
 		}
 				
 		// Adding "preprint"
@@ -111,8 +112,9 @@ function loadPublicationList(publications) {
 			preprint.setAttribute("style","color:gray");
 			preprint.setAttribute("href",preprintAddr);
 			preprint.setAttribute("target","_blank");
-			preprint.innerHTML = "[Preprint version]&nbsp;&nbsp;";
+			preprint.innerHTML = "[Preprint version]";
 			p.appendChild(preprint);
+			p.innerHTML += "&nbsp;&nbsp;"
 		}
     });
 }
