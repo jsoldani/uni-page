@@ -1,11 +1,5 @@
 [{
 	"type": "Journal",
-	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
-	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "Journal",
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
 	"url": "https://doi.org/10.1002/spe.2625",
 	"author": "A. Brogi, L. Rinaldi, J. Soldani",
@@ -19,6 +13,13 @@
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
 	"where": "IEEE Transactions on Cloud Computing",
 	"status": "In press",
+	"year": "Accepted for publication"
+}, {
+	"type": "Journal",
+	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
+	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
+	"where": "Journal of Systems and Software",
+	"status": "Accepted",
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
