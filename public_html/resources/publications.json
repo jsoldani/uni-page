@@ -15,15 +15,6 @@
 	"status": "In press",
 	"year": "Accepted for publication"
 }, {
-	"type": "Journal",
-	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
-	"url": "https://doi.org/10.1016/j.jss.2018.09.082",
-	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
-	"where": "Journal of Systems and Software",
-	"status": "In press",
-	"year": "Accepted for publication",
-	"preprint": "microservices-pains-gains.pdf"
-}, {
 	"type": "In proceedings",
 	"title": "Helping your Docker images to spread based on explainable models",
 	"author": "R. Guidotti, J. Soldani, D. Neri, A. Brogi, D. Pedreschi",
@@ -44,6 +35,15 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "Accepted"
+}, {
+	"type": "Journal",
+	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
+	"url": "https://doi.org/10.1016/j.jss.2018.09.082",
+	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
+	"where": "Journal of Systems and Software, volume 146, pages 215-232",
+	"year": "2018",
+	"preprint": "microservices-pains-gains.pdf",
+	"bib": "microservices-pains-gains.bib"
 }, {
 	"type": "Journal",
 	"title": "A microservice-based architecture for (customisable) analyses of Docker images",
