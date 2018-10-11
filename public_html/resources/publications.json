@@ -1,13 +1,5 @@
 [{
 	"type": "Journal",
-	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
-	"url": "https://doi.org/10.1002/spe.2625",
-	"author": "A. Brogi, L. Rinaldi, J. Soldani",
-	"where": "Software: Practice and Experience",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
-	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
 	"url": "https://doi.org/10.1109/TCC.2017.2702586",
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
@@ -37,6 +29,15 @@
 	"status": "Accepted"
 }, {
 	"type": "Journal",
+	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
+	"url": "https://doi.org/10.1002/spe.2625",
+	"author": "A. Brogi, L. Rinaldi, J. Soldani",
+	"where": "Software: Practice and Experience volume, 48, issue 11,  pages 2061-2079",
+	"year": "2018",
+	"preprint": "tosker-extended.pdf",
+	"bib": "tosker-extended.bib"
+}, {
+	"type": "Journal",
 	"title": "The Pains and Gains of Microservices: A Systematic Grey Literature Review",
 	"url": "https://doi.org/10.1016/j.jss.2018.09.082",
 	"author": "J. Soldani, D. A. Tamburri, W. J. Van Den Heuvel",
@@ -51,6 +52,7 @@
 	"author": "A. Brogi, D. Neri, J. Soldani",
 	"where": "Software: Practice and Experience, volume 48, issue 8,  pages 1461-1474",
 	"year": "2018",
+	"preprint": "dockeranalyser.pdf",
 	"bib": "dockeranalyser.bib"
 }, {
 	"type": "Journal",
