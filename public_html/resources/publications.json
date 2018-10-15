@@ -61,7 +61,8 @@
 	"url": "http://dx.doi.org/10.1016/j.scico.2018.07.005",
 	"where": "Science of Computer Programming, volume 166, pages 194-213",
 	"year": "2018",
-	"bib": "toskeriser-extended.bib"
+	"bib": "toskeriser-extended.bib",
+	"preprint": "toskeriser-extended.pdf"
 }, {
 	"type": "Journal",
 	"title": "Fault-aware management protocols for multi-component applications",
