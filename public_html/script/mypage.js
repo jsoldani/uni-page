@@ -275,10 +275,15 @@ function loadTeachingList(teaching) {
         ay.textContent = activity.ay;
         activityRow.appendChild(ay);
 
-        // Adding "role", "course", "programme"
-        var act = document.createElement('td');
-        act.textContent = activity.role + " @ " + activity.course + ", " + activity.degree + ", " + activity.university;
-        activityRow.appendChild(act);
+        // Adding "role"
+		var role = document.createElement('td');
+		role.textContent = activity.role;
+		activityRow.appendChild(role);
+		
+		// Adding "course" and "programme"
+        var course = document.createElement('td');
+        course.innerHTML = activity.course + ", " + activity.degree + ", " + activity.university;
+        activityRow.appendChild(course);
 
         teachingTable.appendChild(activityRow);
     });

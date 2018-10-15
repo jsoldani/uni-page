@@ -1,4 +1,10 @@
 [{
+	"ay": "2018/2019",
+	"course": "Programming foundations (Fondamenti di Programmazione con Laboratorio)",
+	"role": "Teacher",
+	"degree": "BSc in Mathematics",
+	"university": "University of Pisa"
+},{
 	"ay": "2017/2018",
 	"course": "Programming for Data Science",
 	"role": "Teaching assistant",
