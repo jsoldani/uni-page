@@ -1,6 +1,13 @@
 [{
 	"type": "BSc",
 	"candidate": "Stefania Tola",
+	"title": "Progettazione e sviluppo di servizi cloud per il monitoraggio di macchine industriali",
+	"programme": "BSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "Ongoing"
+}, {
+	"type": "BSc",
+	"candidate": "Stefania Tola",
 	"title": "DockerAnalyserUI: Progettazione e sviluppo di un'interfaccia grafica per DockerAnalyser",
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
