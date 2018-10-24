@@ -98,6 +98,13 @@
 	"bestpaper": "true",
 	"year": "2018",
 	"bib": "true-concurrent-management-protocols.bib"
+},  {
+	"type": "In proceedings",
+	"title": "On modelling, analysing and reusing multi-component applications",
+	"url": "https://domino.research.ibm.com/library/cyberdig.nsf/papers/B9C0E546AD89207E8525832F0050BD23/$File/RC25681.pdf",
+	"author": "J. Soldani",
+	"where": "12th Advanced Summer School on Service Oriented Computing (SummerSOC)",
+	"year": "2018"
 }, {
 	"type": "Journal",
 	"title": "DrACO: Discovering Available Cloud Offerings",
