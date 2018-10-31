@@ -33,6 +33,17 @@
             "when": "20-22 March 2019",
 			"url": "http://www.aspai-conference.com"
         }, {
+			"type": "Conference",
+			"role": "PC member",
+			"shortname": "CISAI 2018",
+			"fullname": "2018 International Conference on Computer Information Science and Artificial Intelligence",
+			"where": "Guangzhou, China",
+			"when": "30 November-2 December 2018",
+			"url": "https://www.keoaeic.org/CISAI2018"
+		}
+    ],
+    "past": [
+        {
             "type": "Conference",
             "role": "PC member",
             "shortname": "TeC4C 2018",
@@ -40,10 +51,7 @@
             "where": "Philadelphia, USA",
             "when": "18-20 October 2018",
 			"url": "http://tec4c2018.netsons.org/" 
-        }
-    ],
-    "past": [
-        {
+        }, {
             "type": "Workshop",
             "role": "Program chair",
             "shortname": "FOCLASA 2018",
