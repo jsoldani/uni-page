@@ -44,6 +44,13 @@
     ],
     "past": [
         {
+            "type": "Workshop",
+            "role": "Program chair",
+            "shortname": "FOCLASA 2018",
+            "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
+            "where": "Toulouse, France",
+            "when": "26 June 2018"
+        }, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "TeC4C 2018",
@@ -51,13 +58,6 @@
             "where": "Philadelphia, USA",
             "when": "18-20 October 2018",
 			"url": "http://tec4c2018.netsons.org/" 
-        }, {
-            "type": "Workshop",
-            "role": "Program chair",
-            "shortname": "FOCLASA 2018",
-            "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
-            "where": "Toulouse, France",
-            "when": "26 June 2018"
         }, {
             "type": "Conference",
             "role": "PC member",

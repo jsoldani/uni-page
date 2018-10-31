@@ -166,13 +166,18 @@ function loadProgramCommitteesList(programCommittees) {
         past.className = "list-group-item";
         pcList.appendChild(past);
 		
+		var role = null;
+		var roleSpan;
         // Loading past PCs description
         $.each(programCommittees.past, function (i) {
-            // Adding role and shortname only
-			var e = document.createElement("span");
-			if(i>0) e.innerHTML += "<br>"; 
-			e.innerHTML += this.role + " @ " + this.shortname;
-			past.appendChild(e);
+			if(this.role != role) {
+				if(role != null) past.innerHTML += "<br>";
+				role = this.role;
+				roleSpan = document.createElement("span");
+				roleSpan.innerHTML = this.role + " @ " + this.shortname;
+				past.appendChild(roleSpan);
+			}				
+			else roleSpan.innerHTML += ", " + this.shortname;
         });
     }
 }
