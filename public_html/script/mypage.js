@@ -201,7 +201,7 @@ function loadProjectList(projects) {
 
         // Adding project title/subtitle
         var title = document.createElement("a");
-        title.href = this.home;
+        if(this.home) title.href = this.home;
         title.target = "_blank";
         var completeTitle = this.title;
         if (this.subtitle) completeTitle += ": " + this.subtitle;
