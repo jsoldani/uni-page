@@ -1,5 +1,13 @@
 [{
 	"type": "PRA",
+	"title": "DECLware",
+	"subtitle": "Declarative methodologies for designing and deploying applications",
+	"funder": "University of Pisa",
+	"grant": "PRA_2018_66",
+	"home": "http://pages.di.unipi.it/throughthefog/",
+	"period": "July 2018 - July 2020"
+}, {
+	"type": "PRA",
 	"title": "Through the Fog",
 	"subtitle": "Deploying, programming and supporting Fog computing applications",
 	"funder": "University of Pisa",
