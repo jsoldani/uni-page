@@ -1,5 +1,11 @@
 [{
 	"type": "Journal",
+	"title": "Estimating costs in multi-component enterprise applications",
+	"author": "A. Brogi, A. Corradini, J. Soldani",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
 	"url": "https://doi.org/10.1109/TCC.2017.2702586",
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
