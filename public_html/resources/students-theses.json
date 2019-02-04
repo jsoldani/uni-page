@@ -7,6 +7,13 @@
 	"date": "Ongoing"
 }, {
 	"type": "BSc",
+	"candidate": "Laura Trotta",
+	"title": "Ongoing",
+	"programme": "BSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "Ongoing"
+}, {
+	"type": "BSc",
 	"candidate": "Gionatha Sturba",
 	"title": "Progettazione e sviluppo di servizi cloud per il monitoraggio di macchine industriali",
 	"programme": "BSc in Computer Science",
