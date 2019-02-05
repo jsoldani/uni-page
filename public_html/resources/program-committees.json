@@ -6,7 +6,7 @@
             "shortname": "FOCLASA 2019",
             "fullname": "17th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Oslo, Norway",
-            "when": "September 2019",
+            "when": "17 September 2019",
             "url": "http://pages.di.unipi.it/foclasa"
         }, {
             "type": "Conference",
@@ -32,15 +32,7 @@
             "where": "Barcelona, Spain",
             "when": "20-22 March 2019",
 			"url": "http://www.aspai-conference.com"
-        }, {
-			"type": "Conference",
-			"role": "PC member",
-			"shortname": "CISAI 2018",
-			"fullname": "2018 International Conference on Computer Information Science and Artificial Intelligence",
-			"where": "Guangzhou, China",
-			"when": "30 November-2 December 2018",
-			"url": "https://www.keoaeic.org/CISAI2018"
-		}
+        }
     ],
     "past": [
         {
@@ -51,6 +43,14 @@
             "where": "Toulouse, France",
             "when": "26 June 2018"
         }, {
+			"type": "Conference",
+			"role": "PC member",
+			"shortname": "CISAI 2018",
+			"fullname": "2018 International Conference on Computer Information Science and Artificial Intelligence",
+			"where": "Guangzhou, China",
+			"when": "30 November-2 December 2018",
+			"url": "https://www.keoaeic.org/CISAI2018"
+		}, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "TeC4C 2018",
