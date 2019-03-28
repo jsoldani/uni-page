@@ -32,14 +32,6 @@
             "where": "Limassol, Cyprus",
             "when": "4-12 April 2019",
 			"url": "https://midos2019.sdu.dk"
-        }, {
-            "type": "Conference",
-            "role": "PC member",
-            "shortname": "ASPAI 2019",
-            "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
-            "where": "Barcelona, Spain",
-            "when": "20-22 March 2019",
-			"url": "http://www.aspai-conference.com"
         }
     ],
     "past": [
@@ -50,6 +42,14 @@
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
             "when": "26 June 2018"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "ASPAI 2019",
+            "fullname": "1st International Conference on Advances in Signal Processing and Artificial Intelligence",
+            "where": "Barcelona, Spain",
+            "when": "20-22 March 2019",
+			"url": "http://www.aspai-conference.com"
         }, {
 			"type": "Conference",
 			"role": "PC member",

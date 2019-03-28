@@ -17,6 +17,12 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
+	"type": "Conference",
+	"title": "The Essential Deployment Metamodel: A Systematic Review of Deployment Automation Technologies",
+	"author": "M. Wurster, U. Breitenbücher, M. Falkenthal, C. Krieger, F. Leymann, K. Saatkamp, J. Soldani",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
 	"url": "https://doi.org/10.1109/TCC.2017.2702586",
