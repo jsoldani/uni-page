@@ -11,17 +11,19 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
-	"type": "Conference",
+	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
-	"status": "Submitted",
-	"year": "Submitted for publication"
+	"where": "Software-Intensive Cyber-Physical Systems",
+	"status": "Accepted",
+	"year": "Accepted for publication"
 }, {
-	"type": "Conference",
+	"type": "Journal",
 	"title": "The Essential Deployment Metamodel: A Systematic Review of Deployment Automation Technologies",
 	"author": "M. Wurster, U. Breitenbücher, M. Falkenthal, C. Krieger, F. Leymann, K. Saatkamp, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
+	"where": "Software-Intensive Cyber-Physical Systems",
+	"status": "Accepted",
+	"year": "Accepted for publication"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
