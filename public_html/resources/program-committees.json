@@ -8,7 +8,15 @@
             "where": "Oslo, Norway",
             "when": "17 September 2019",
             "url": "http://pages.di.unipi.it/foclasa"
-        }, {
+        },  {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "CoopIS 2019",
+            "fullname": "27th International Conference on Cooperative Information Systems",
+            "where": "Rhodes, Greece",
+            "when": "23-25 October 2019",
+			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
+        },{
             "type": "Conference",
             "role": "PC member",
             "shortname": "FACS 2019",
