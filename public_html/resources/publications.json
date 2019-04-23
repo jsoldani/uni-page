@@ -5,12 +5,6 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
-	"type": "Conference",
-	"title": "[Hidden for double blind review]",
-	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
@@ -31,6 +25,13 @@
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
 	"where": "IEEE Transactions on Cloud Computing",
 	"status": "In press",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Robust management of trans-cloud applications",
+	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
+	"where": "2019 IEEE International Conference on Cloud Computing (CLOUD 2019)",
+	"status": "Accepted",
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
