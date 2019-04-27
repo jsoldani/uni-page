@@ -8,7 +8,7 @@
             "where": "Oslo, Norway",
             "when": "17 September 2019",
             "url": "http://pages.di.unipi.it/foclasa"
-        },  {
+        }, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "CoopIS 2019",
@@ -16,7 +16,7 @@
             "where": "Rhodes, Greece",
             "when": "23-25 October 2019",
 			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
-        },{
+        }, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "FACS 2019",
@@ -30,16 +30,16 @@
             "shortname": "SERVICE COMPUTATION 2019",
             "fullname": "11th International Conference on Advanced Service Computing",
             "where": "Venice, Italy",
-            "when": "5-9 May 2019",
+            "when": "5-9 September 2019",
 			"url": "http://www.iaria.org/conferences2019/SERVICECOMPUTATION19.html"
         }, {
             "type": "Conference",
             "role": "PC member",
-            "shortname": "MiDOS @ SAC 2019",
-            "fullname": "34rd ACM SIGAPP Symposium on Applied Computing, track on Microservices, DevOps, and Service-Oriented Architecture",
-            "where": "Limassol, Cyprus",
-            "when": "4-12 April 2019",
-			"url": "https://midos2019.sdu.dk"
+            "shortname": "ESEC/FSE 2019 - Demonstrations",
+            "fullname": "27th ACM Joint European Software Engineering Conference and Symposium of Foundations of Software Engineering, demonstrations track",
+            "where": "Tallinn, Estonia",
+            "when": "26-30 August 2019",
+			"url": "https://esec-fse19.ut.ee/calls/tool-demos/"
         }
     ],
     "past": [
@@ -50,6 +50,14 @@
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
             "when": "26 June 2018"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "MiDOS @ SAC 2019",
+            "fullname": "34rd ACM SIGAPP Symposium on Applied Computing, track on Microservices, DevOps, and Service-Oriented Architecture",
+            "where": "Limassol, Cyprus",
+            "when": "4-12 April 2019",
+			"url": "https://midos2019.sdu.dk"
         }, {
             "type": "Conference",
             "role": "PC member",
