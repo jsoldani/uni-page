@@ -11,11 +11,27 @@
         }, {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "CCIOT 2019",
+            "fullname": "4th International Conference on Cloud Computing and Internet of Things",
+            "where": "Tokyo, Japan",
+            "when": "20-22 September 2019",
+			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "CoopIS 2019",
             "fullname": "27th International Conference on Cooperative Information Systems",
             "where": "Rhodes, Greece",
             "when": "23-25 October 2019",
 			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "ESEC/FSE 2019 - Demonstrations",
+            "fullname": "27th ACM Joint European Software Engineering Conference and Symposium of Foundations of Software Engineering, demonstrations track",
+            "where": "Tallinn, Estonia",
+            "when": "26-30 August 2019",
+			"url": "https://esec-fse19.ut.ee/calls/tool-demos/"
         }, {
             "type": "Conference",
             "role": "PC member",
@@ -32,15 +48,7 @@
             "where": "Venice, Italy",
             "when": "5-9 September 2019",
 			"url": "http://www.iaria.org/conferences2019/SERVICECOMPUTATION19.html"
-        }, {
-            "type": "Conference",
-            "role": "PC member",
-            "shortname": "ESEC/FSE 2019 - Demonstrations",
-            "fullname": "27th ACM Joint European Software Engineering Conference and Symposium of Foundations of Software Engineering, demonstrations track",
-            "where": "Tallinn, Estonia",
-            "when": "26-30 August 2019",
-			"url": "https://esec-fse19.ut.ee/calls/tool-demos/"
-        }
+        } 
     ],
     "past": [
         {
