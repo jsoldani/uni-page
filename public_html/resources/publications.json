@@ -17,7 +17,8 @@
 	"author": "M. Wurster, U. Breitenbücher, M. Falkenthal, C. Krieger, F. Leymann, K. Saatkamp, J. Soldani",
 	"where": "Software-Intensive Cyber-Physical Systems",
 	"status": "Accepted",
-	"year": "Accepted for publication"
+	"year": "Accepted for publication",
+	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",

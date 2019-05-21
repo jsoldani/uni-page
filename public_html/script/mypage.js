@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-	// Display active tab from hash 
+	// Display active tab from hash
 	if(!window.location.hash) window.location.hash = "#home";
 	$('[href="' + window.location.hash + '"]').tab('show');
 
@@ -18,7 +18,7 @@
 function loadPublicationList(publications) {
     var pubList = $('#publication-list')[0];
 	var prevYear = -1;
-    
+
 	// For each type in which a paper has been published
     $.each(publications, function (i, pub) {
         // If year changes, add new year entry
@@ -29,7 +29,7 @@ function loadPublicationList(publications) {
 			newYear.innerHTML = "<b>" + pub.year + "</b>";
 			pubList.appendChild(newYear);
 		}
-		
+
 		// Creating publication entry
         var p = document.createElement('div');
 		p.className = "list-group-item";
@@ -38,7 +38,7 @@ function loadPublicationList(publications) {
         p.innerHTML += " " + pub.author + ". ";
 
 		p.innerHTML += "<br>"
-			
+
         // Adding "title"
         var title = document.createElement('span');
         if (pub.url) {
@@ -50,18 +50,18 @@ function loadPublicationList(publications) {
 		p.appendChild(title);
 
 		pubList.appendChild(p);
-		
+
 		// If a paper is submitted, it is displayed separately
 		// (with only authors and title)
 		if (pub.status == "Submitted") return;
-		
-		
+
+
 		p.appendChild(document.createElement("br"));
-		
+
 		// Adding "where" and "year"
 		if (pub.where) p.innerHTML += pub.where;
 		if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
-		
+
 		// Adding space
 		p.innerHTML += "&nbsp;&nbsp;";
 
@@ -70,7 +70,7 @@ function loadPublicationList(publications) {
 		typeLabel.textContent = pub.type;
 		switch (pub.type) {
 			case "Journal":
-				typeLabel.className = "label label-danger";			
+				typeLabel.className = "label label-danger";
 				break;
 			case "In proceedings":
 				typeLabel.className = "label label-primary";
@@ -80,7 +80,7 @@ function loadPublicationList(publications) {
 				break;
 		}
 		p.appendChild(typeLabel);
-		
+
 		// Adding "status"
 		if(pub.status) {
 			var stat = document.createElement('span');
@@ -91,9 +91,9 @@ function loadPublicationList(publications) {
 		// Adding "bestpaper"
 		if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
 
-		
+
 		p.appendChild(document.createElement("br"));
-		
+
 		// Adding "bib"
 		if (pub.bib) {
 			var bib = document.createElement("a");
@@ -105,11 +105,13 @@ function loadPublicationList(publications) {
 			p.appendChild(bib);
 			p.innerHTML += "&nbsp;&nbsp;"
 		}
-				
+
 		// Adding "preprint"
 		if (pub.preprint) {
 			var preprint = document.createElement("a");
-			var preprintAddr = "resources/preprints/" + pub.preprint;
+			var preprintAddr;
+			if(pub.preprint.startsWith("http")) preprintAddr = pub.preprint
+			else preprintAddr = "resources/preprints/" + pub.preprint;
 			preprint.setAttribute("style","color:gray");
 			preprint.setAttribute("href",preprintAddr);
 			preprint.setAttribute("target","_blank");
@@ -126,7 +128,7 @@ function loadPublicationList(publications) {
  */
 function loadProgramCommitteesList(programCommittees) {
     var pcList = $('#pc-list')[0];
-	
+
 	// Forthcoming events
     if (programCommittees.ongoing.length > 0) {
         $.each(programCommittees.ongoing, function (i) {
@@ -134,7 +136,7 @@ function loadProgramCommitteesList(programCommittees) {
 			var e = document.createElement("div");
 			e.className = "list-group-item";
 			pcList.appendChild(e);
-			
+
 			// Adding role and fullname
 			e.innerHTML += " <b>" + this.role + "</b> @ " + this.fullname;
 
@@ -149,11 +151,11 @@ function loadProgramCommitteesList(programCommittees) {
 
             // Adding where, when
             e.innerHTML += ", " + this.where + ", " + this.when + ".&nbsp;&nbsp;";
-			
+
 			// Adding "forthcoming" label
             var forthLabel = document.createElement('span');
 			forthLabel.textContent = "Forthcoming";
-			forthLabel.className = "label label-success";			
+			forthLabel.className = "label label-success";
 			e.appendChild(forthLabel);
         });
 
@@ -165,7 +167,7 @@ function loadProgramCommitteesList(programCommittees) {
         var past = document.createElement("div");
         past.className = "list-group-item";
         pcList.appendChild(past);
-		
+
 		var role = null;
 		var roleSpan;
         // Loading past PCs description
@@ -176,7 +178,7 @@ function loadProgramCommitteesList(programCommittees) {
 				roleSpan = document.createElement("span");
 				roleSpan.innerHTML = this.role + " @ " + this.shortname;
 				past.appendChild(roleSpan);
-			}				
+			}
 			else roleSpan.innerHTML += ", " + this.shortname;
         });
     }
@@ -207,14 +209,14 @@ function loadProjectList(projects) {
         if (this.subtitle) completeTitle += ": " + this.subtitle;
         title.innerHTML = " <b>" + completeTitle + "</b>.";
         p.appendChild(title);
-		
+
 		p.appendChild(document.createElement("br"));
 
         // Adding funder, grant
         p.innerHTML += "Funded by the " + this.funder + ", under grant agreement: " + this.grant + "."
-		
+
 		p.appendChild(document.createElement("br"));
-		
+
 		// Adding period
         p.innerHTML += " Duration: " + this.period + ".";
 
@@ -284,7 +286,7 @@ function loadTeachingList(teaching) {
 		var role = document.createElement('td');
 		role.textContent = activity.role;
 		activityRow.appendChild(role);
-		
+
 		// Adding "course" and "programme"
         var course = document.createElement('td');
         course.innerHTML = activity.course + ", " + activity.degree + ", " + activity.university;
