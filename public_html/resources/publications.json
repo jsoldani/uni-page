@@ -5,6 +5,13 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
+	"type": "In proceedings",
+	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
+	"author": "A. Brogi, D. Neri, J. Soldani",
+	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
