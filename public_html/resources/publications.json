@@ -17,7 +17,8 @@
 	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
 	"where": "Software-Intensive Cyber-Physical Systems",
 	"status": "Accepted",
-	"year": "Accepted for publication"
+	"year": "Accepted for publication",
+	"preprint": "http://arxiv.org/abs/1906.01553"
 }, {
 	"type": "Journal",
 	"title": "The Essential Deployment Metamodel: A Systematic Review of Deployment Automation Technologies",
