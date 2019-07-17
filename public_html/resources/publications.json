@@ -12,6 +12,20 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
+	"type": "In proceedings",
+	"title": "Hidden for reasons of double-blind review",
+	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
+	"where": "13th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM 2019)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Why did it fail? Understanding causalities in multi-component applications",
+	"author": "A. Brogi, J. Soldani",
+	"where": "17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
