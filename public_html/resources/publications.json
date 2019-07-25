@@ -1,10 +1,4 @@
 [{
-	"type": "Journal",
-	"title": "Estimating costs in multi-component enterprise applications",
-	"author": "A. Brogi, A. Corradini, J. Soldani",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
 	"author": "A. Brogi, D. Neri, J. Soldani",
@@ -28,7 +22,7 @@
 }, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
-	"author": "A. Brogi, D. Neri, J. Soldani, O. Zimmermann",
+	"author": "D. Neri, J. Soldani, O. Zimmermann, A. Brogi",
 	"where": "Software-Intensive Cyber-Physical Systems",
 	"status": "Accepted",
 	"year": "Accepted for publication",
@@ -41,6 +35,14 @@
 	"status": "Accepted",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
+}, {
+	"type": "Journal",
+	"title": "Estimating costs in multi-component enterprise applications",
+	"author": "A. Brogi, A. Corradini, J. Soldani",
+	"where": "Formal Aspects of Computing",
+	"url": "http://dx.doi.org/10.1007/s00165-019-00491-2",
+	"status": "In press",
+	"year": "Accepted for publication"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
