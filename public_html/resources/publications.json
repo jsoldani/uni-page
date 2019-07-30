@@ -53,7 +53,7 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "Why did it fail? Understanding causalities in multi-component applications",
+	"title": "Identifying failure causalities in multi-component applications",
 	"author": "A. Brogi, J. Soldani",
 	"where": "17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019)",
 	"status": "Accepted",
