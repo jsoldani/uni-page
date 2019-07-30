@@ -7,16 +7,9 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "Hidden for reasons of double-blind review",
+	"title": "An Industrial Survey on High-Availability in Microservices",
 	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
 	"where": "13th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM 2019)",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "Why did it fail? Understanding causalities in multi-component applications",
-	"author": "A. Brogi, J. Soldani",
-	"where": "17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019)",
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
@@ -56,6 +49,13 @@
 	"title": "Robust management of trans-cloud applications",
 	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
 	"where": "2019 IEEE International Conference on Cloud Computing (CLOUD 2019)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Why did it fail? Understanding causalities in multi-component applications",
+	"author": "A. Brogi, J. Soldani",
+	"where": "17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019)",
 	"status": "Accepted",
 	"year": "Accepted for publication"
 }, {
