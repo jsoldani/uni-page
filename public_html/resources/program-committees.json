@@ -11,6 +11,14 @@
         }, {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "SERVICE COMPUTATION 2020",
+            "fullname": "12th International Conference on Advanced Service Computing",
+            "where": "Nice, France",
+            "when": "26-30 April 2020",
+			"url": "http://www.iaria.org/conferences2020/SERVICECOMPUTATION20.html"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "eLmL 2020",
             "fullname": "12th International Conference on Mobile, Hybrid, and On-line Learning",
             "where": "Barcelona, Spain",
