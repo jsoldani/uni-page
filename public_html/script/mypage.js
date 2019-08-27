@@ -115,8 +115,19 @@ function loadPublicationList(publications) {
 			preprint.setAttribute("style","color:gray");
 			preprint.setAttribute("href",preprintAddr);
 			preprint.setAttribute("target","_blank");
-			preprint.innerHTML = "[Preprint version]";
+			preprint.innerHTML = "[Preprint]";
 			p.appendChild(preprint);
+			p.innerHTML += "&nbsp;&nbsp;"
+		}
+		
+		// Adding "readable"
+		if (pub.readable) {
+			var readable = document.createElement("a");
+			readable.setAttribute("style","color:gray");
+			readable.setAttribute("href",pub.readable);
+			readable.setAttribute("target","_blank");
+			readable.innerHTML = "[PDF]";
+			p.appendChild(readable);
 			p.innerHTML += "&nbsp;&nbsp;"
 		}
     });

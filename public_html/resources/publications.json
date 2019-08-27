@@ -25,7 +25,9 @@
 	"title": "The Essential Deployment Metamodel: A Systematic Review of Deployment Automation Technologies",
 	"author": "M. Wurster, U. Breitenbücher, M. Falkenthal, C. Krieger, F. Leymann, K. Saatkamp, J. Soldani",
 	"where": "Software-Intensive Cyber-Physical Systems",
-	"status": "Accepted",
+	"url": "http://dx.doi.org/10.1007/s00450-019-00412-x",
+	"readable": "https://rdcu.be/bPDeQ",
+	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
@@ -34,6 +36,7 @@
 	"author": "A. Brogi, A. Corradini, J. Soldani",
 	"where": "Formal Aspects of Computing",
 	"url": "http://dx.doi.org/10.1007/s00165-019-00491-2",
+	"readable": "https://rdcu.be/bPgs2 ",
 	"status": "In press",
 	"year": "Accepted for publication"
 }, {
