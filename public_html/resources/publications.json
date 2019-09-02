@@ -50,13 +50,6 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "Robust management of trans-cloud applications",
-	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
-	"where": "2019 IEEE International Conference on Cloud Computing (CLOUD 2019)",
-	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
 	"title": "Identifying failure causalities in multi-component applications",
 	"author": "A. Brogi, J. Soldani",
 	"where": "17th International Workshop on Coordination and Self-Adaptativeness of Software Applications (FOCLASA 2019)",
@@ -69,6 +62,14 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "In press"
+}, {
+	"type": "In proceedings",
+	"title": "Robust management of trans-cloud applications",
+	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
+	"where": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD 2019)",
+	"url": "http://dx.doi.org/10.1109/CLOUD.2019.00046",
+	"year": "2019",
+	"bib": "robust-trans-cloud.bib"
 }, {
 	"type": "Journal",
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
