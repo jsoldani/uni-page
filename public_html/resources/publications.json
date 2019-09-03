@@ -1,5 +1,12 @@
 [{
 	"type": "In proceedings",
+	"title": "The EDMM Modeling and Transformation System",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
+	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "In proceedings",
 	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
 	"author": "A. Brogi, D. Neri, J. Soldani",
 	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019)",
