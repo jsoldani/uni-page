@@ -33,15 +33,6 @@
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
 	"type": "Journal",
-	"title": "Estimating costs in multi-component enterprise applications",
-	"author": "A. Brogi, A. Corradini, J. Soldani",
-	"where": "Formal Aspects of Computing",
-	"url": "http://dx.doi.org/10.1007/s00165-019-00491-2",
-	"readable": "https://rdcu.be/bPgs2 ",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
-	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
 	"url": "https://doi.org/10.1109/TCC.2017.2702586",
 	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
@@ -63,6 +54,15 @@
 	"year": "Accepted for publication",
 	"status": "In press"
 }, {
+	"type": "Journal",
+	"title": "Estimating costs in multi-component enterprise applications",
+	"author": "A. Brogi, A. Corradini, J. Soldani",
+	"where": "Formal Aspects of Computing, volume 31, issue 4, pages 421-451",
+	"url": "http://dx.doi.org/10.1007/s00165-019-00491-2",
+	"readable": "https://rdcu.be/bPgs2 ",
+	"year": "2019",
+	"bib": "estimating-costs-app-topologies.bib"
+}, {
 	"type": "In proceedings",
 	"title": "Robust management of trans-cloud applications",
 	"author": "A. Brogi, J. Carrasco, F. Durán, E. Pimentel, J. Soldani",
@@ -75,7 +75,7 @@
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
 	"url": "https://doi.org/10.1002/spe.2625",
 	"author": "A. Brogi, L. Rinaldi, J. Soldani",
-	"where": "Software: Practice and Experience volume, 48, issue 11,  pages 2061-2079",
+	"where": "Software: Practice and Experience, volume, 48, issue 11,  pages 2061-2079",
 	"year": "2018",
 	"preprint": "tosker-extended.pdf",
 	"bib": "tosker-extended.bib"
