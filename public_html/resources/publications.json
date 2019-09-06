@@ -40,14 +40,6 @@
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
-	"type": "Journal",
-	"title": "Cloud Container Technologies: a State-of-the-Art Review",
-	"url": "https://doi.org/10.1109/TCC.2017.2702586",
-	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
-	"where": "IEEE Transactions on Cloud Computing",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "Identifying failure causalities in multi-component applications",
 	"author": "A. Brogi, J. Soldani",
@@ -61,6 +53,14 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "In press"
+}, {
+	"type": "Journal",
+	"title": "Cloud Container Technologies: a State-of-the-Art Review",
+	"url": "https://doi.org/10.1109/TCC.2017.2702586",
+	"author": "C. Pahl, A. Brogi, J. Soldani, P. Jamshidi",
+	"where": "IEEE Transactions on Cloud Computing, volume 7, issue 3, pages 677-692",
+	"bib": "cloud-container-technologies.bib",
+	"year": "2019"
 }, {
 	"type": "Journal",
 	"title": "Estimating costs in multi-component enterprise applications",
