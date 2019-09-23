@@ -1,15 +1,8 @@
 [{
-	"type": "In proceedings",
-	"title": "The EDMM Modeling and Transformation System",
-	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
-	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
-	"author": "A. Brogi, D. Neri, J. Soldani",
-	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019)",
+	"type": "Journal",
+	"title": "Grey literature: A safe bridge between academy and industry?",
+	"author": "J. Soldani",
+	"where": "ACM SIGSOFT Software Engineering Notes",
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
@@ -39,6 +32,20 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
+}, {
+	"type": "In proceedings",
+	"title": "The EDMM Modeling and Transformation System",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
+	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
+	"author": "A. Brogi, D. Neri, J. Soldani",
+	"where": "15th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2019)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
 	"title": "Identifying failure causalities in multi-component applications",
