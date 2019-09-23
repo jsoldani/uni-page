@@ -1,12 +1,5 @@
 [{
 	"type": "MSc",
-	"candidate": "Matteo Bogo",
-	"title": "Ongoing",
-	"programme": "MSc in Computer Science",
-	"university": "University of Pisa",
-	"date": "Ongoing"
-}, {
-	"type": "MSc",
 	"candidate": "Marco Cameriero",
 	"title": "Ongoing",
 	"programme": "MSc in Computer Science",
@@ -19,6 +12,20 @@
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
 	"date": "Ongoing"
+}, {
+	"type": "BSc",
+	"candidate": "Giuseppe Muntoni",
+	"title": "Ongoing",
+	"programme": "BSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "Ongoing"
+}, {
+	"type": "MSc",
+	"candidate": "Matteo Bogo",
+	"title": "Component-aware orchestration of TOSCA applications on top of Docker",
+	"programme": "MSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "September 2019"
 }, {
 	"type": "BSc",
 	"candidate": "Daniele Manca",
