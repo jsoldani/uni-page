@@ -4,12 +4,41 @@
 	$('[href="' + window.location.hash + '"]').tab('show');
 
 	// Fill tabs with data
+	$.getJSON("resources/editorship.json", (data) => { loadEditorship(data) });
 	$.getJSON("resources/publications.json", (data) => { loadPublicationList(data) });
 	$.getJSON("resources/program-committees.json", (data) => { loadProgramCommitteesList(data) });
 	$.getJSON("resources/research-projects.json", (data) => { loadProjectList(data) });
 	$.getJSON("resources/students-theses.json", (data) => { loadStudentsThesesList(data) });
 	$.getJSON("resources/teaching.json", (data) => { loadTeachingList(data) });
 });
+
+/*
+ * This function fills the list of publications.
+ * [Usage: body.onload]
+ */
+function loadEditorship(editorshipList) {
+	var edList = $('#editorship-list')[0];
+	
+	$.each(editorshipList, function(i, e) {
+		// Creating editor entry
+        var eDiv = document.createElement("div");
+        eDiv.className = "list-group-item";
+		edList.appendChild(eDiv);
+		
+		// Adding role
+		eDiv.innerHTML = e.role + " of "; 
+		
+		// Adding journal
+		var eJour = document.createElement("a");
+		eDiv.appendChild(eJour);
+		eJour.setAttribute("href",e.url);
+		eJour.setAttribute("target","_blank");
+		eJour.innerHTML = e.journal;
+		
+		// Adding notes
+		eDiv.innerHTML += " " + e.notes + ".";
+	});
+}
 
 /*
  * This function fills the list of publications.
