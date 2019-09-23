@@ -33,7 +33,7 @@ function loadEditorship(editorshipList) {
 		eDiv.appendChild(eJour);
 		eJour.setAttribute("href",e.url);
 		eJour.setAttribute("target","_blank");
-		eJour.innerHTML = e.journal;
+		eJour.innerHTML = "<b>" + e.journal + "</b>";
 		
 		// Adding notes
 		eDiv.innerHTML += " " + e.notes + ".";
