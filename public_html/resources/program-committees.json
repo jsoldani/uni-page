@@ -27,14 +27,6 @@
         }, {
             "type": "Conference",
             "role": "PC member",
-            "shortname": "ESEC/FSE 2019 - Demonstrations",
-            "fullname": "27th ACM Joint European Software Engineering Conference and Symposium of Foundations of Software Engineering, demonstrations track",
-            "where": "Tallinn, Estonia",
-            "when": "26-30 August 2019",
-			"url": "https://esec-fse19.ut.ee/calls/tool-demos/"
-        }, {
-            "type": "Conference",
-            "role": "PC member",
             "shortname": "FACS 2019",
             "fullname": "16th International Conference on Formal Aspects of Component Software",
             "where": "Amsterdam, Netherlands",
@@ -58,6 +50,14 @@
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
             "when": "26 June 2018"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "ESEC/FSE 2019 - Demonstrations",
+            "fullname": "27th ACM Joint European Software Engineering Conference and Symposium of Foundations of Software Engineering, demonstrations track",
+            "where": "Tallinn, Estonia",
+            "when": "26-30 August 2019",
+			"url": "https://esec-fse19.ut.ee/calls/tool-demos/"
         }, {
             "type": "Conference",
             "role": "PC member",
