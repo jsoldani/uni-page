@@ -3,6 +3,14 @@
         {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "SERVICE COMPUTATION 2020",
+            "fullname": "12th International Conference on Advanced Service Computing",
+            "where": "Nice, France",
+            "when": "26-30 April 2020",
+			"url": "http://www.iaria.org/conferences2020/SERVICECOMPUTATION20.html"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "ASPAI 2020",
             "fullname": "2nd International Conference on Advances in Signal Processing and Artificial Intelligence",
             "where": "Berlin, Germany",
@@ -11,11 +19,11 @@
         }, {
             "type": "Conference",
             "role": "PC member",
-            "shortname": "SERVICE COMPUTATION 2020",
-            "fullname": "12th International Conference on Advanced Service Computing",
-            "where": "Nice, France",
-            "when": "26-30 April 2020",
-			"url": "http://www.iaria.org/conferences2020/SERVICECOMPUTATION20.html"
+            "shortname": "ESOCC 2020",
+            "fullname": "8th European Conference on Service-Oriented and Cloud Computing",
+            "where": "Crete, Greece",
+            "when": "01-03 April 2020",
+			"url": ""
         }, {
             "type": "Conference",
             "role": "PC member",

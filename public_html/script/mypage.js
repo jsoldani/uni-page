@@ -185,6 +185,7 @@ function loadProgramCommitteesList(programCommittees) {
             var eShortname = document.createElement("a");
             eShortname.innerHTML = "<b>" + this.shortname + "</b>";
             eShortname.href = this.url;
+			if(this.url == "") eShortname.setAttribute("style","pointer-events:none");
             eShortname.target = "_blank";
             e.appendChild(eShortname);
             e.innerHTML += ")"
