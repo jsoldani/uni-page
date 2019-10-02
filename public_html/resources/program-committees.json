@@ -3,6 +3,14 @@
         {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "ASPAI 2020",
+            "fullname": "2nd International Conference on Advances in Signal Processing and Artificial Intelligence",
+            "where": "Berlin, Germany",
+            "when": "01-03 April 2020",
+			"url": "http://www.aspai-conference.com"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "SERVICE COMPUTATION 2020",
             "fullname": "12th International Conference on Advanced Service Computing",
             "where": "Nice, France",
