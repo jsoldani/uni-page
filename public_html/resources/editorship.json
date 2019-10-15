@@ -2,7 +2,12 @@
 	"role": "Associate editor",
 	"journal": "SIGSOFT Software Engineering Notes (SEN)",
 	"url": "https://www.sigsoft.org/SEN/",
-	"notes": "since 2019"
+	"notes": "since Oct 2019"
+}, {
+	"role": "Editorial Board Member",
+	"journal": "PLoS ONE",
+	"url": "https://journals.plos.org/plosone",
+	"notes": "since Oct 2019"
 }, {
 	"role": "Managing guest editor",
 	"journal": "Science of Computer Programming",
