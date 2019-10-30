@@ -1,11 +1,4 @@
 [{
-	"type": "Journal",
-	"title": "Grey literature: A safe bridge between academy and industry?",
-	"author": "J. Soldani",
-	"where": "ACM SIGSOFT Software Engineering Notes",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "An Industrial Survey on High-Availability in Microservices",
 	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
@@ -32,6 +25,13 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
+}, {
+	"type": "Journal",
+	"title": "Grey literature: A safe bridge between academy and industry?",
+	"author": "J. Soldani",
+	"where": "ACM SIGSOFT Software Engineering Notes",
+	"status": "In press",
+	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
 	"title": "The EDMM Modeling and Transformation System",
