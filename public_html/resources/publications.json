@@ -26,13 +26,6 @@
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
-	"type": "Journal",
-	"title": "Grey literature: A safe bridge between academy and industry?",
-	"author": "J. Soldani",
-	"where": "ACM SIGSOFT Software Engineering Notes",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "The EDMM Modeling and Transformation System",
 	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
@@ -77,6 +70,14 @@
 	"readable": "https://rdcu.be/bPgs2 ",
 	"year": "2019",
 	"bib": "estimating-costs-app-topologies.bib"
+}, {
+	"type": "Journal",
+	"title": "Grey literature: A safe bridge between academy and industry?",
+	"author": "J. Soldani",
+	"where": "ACM SIGSOFT Software Engineering Notes, volume 44, issue 3, pages 11-12",
+	"url": "https://dx.doi.org/10.1145/3356773.3356776",
+	"year": "2019",
+	"bib": "grey-literature-sen.bib"
 }, {
 	"type": "In proceedings",
 	"title": "Robust management of trans-cloud applications",
