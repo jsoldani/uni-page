@@ -1,8 +1,15 @@
 [{
 	"type": "In proceedings",
-	"title": "An Industrial Survey on High-Availability in Microservices",
+	"title": "Frameworks and High-Availability in Microservices: An Industrial Survey",
 	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
-	"where": "13th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM 2019)",
+	"where": "XXIII Ibero-American Conference on Software Engineering (CibSE 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Testing conformance in multi-component enterprise application management",
+	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
+	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
