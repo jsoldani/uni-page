@@ -11,6 +11,14 @@
         }, {
 			"type": "Conference",
 			"role": "PC member",
+			"shortname": "BDIOT 2020",
+			"fullname": "4th International Conference on Big Data and Internet of Things",
+			"where": "Singapore",
+			"when": "22-24 August 2020",
+			"url": "http://www.bdiot.org/"
+		}, {
+			"type": "Conference",
+			"role": "PC member",
 			"shortname": "CLOSER 2020",
 			"fullname": "10th International Conference on Cloud Computing and Service Science",
 			"where": "Prague, Czech Republic",
