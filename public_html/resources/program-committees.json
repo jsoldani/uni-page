@@ -17,6 +17,14 @@
 			"when": "22-24 August 2020",
 			"url": "http://www.bdiot.org/"
 		}, {
+			"type": "Workshop",
+			"role": "PC member",
+			"shortname": "AMP 2020",
+			"fullname": "1st International Workshop on Agility with Microservices Programming",
+			"where": "Copenhagen, Denmark",
+			"when": "08 June 2020",
+			"url": "https://amp.fe.up.pt/2020/"
+		}, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "CLOSER 2020",
@@ -56,22 +64,6 @@
             "where": "Barcelona, Spain",
             "when": "22-26 March 2020",
 			"url": "http://www.iaria.org/conferences2020/eLmL20.html"
-        }, {
-            "type": "Conference",
-            "role": "PC member",
-            "shortname": "CoopIS 2019",
-            "fullname": "27th International Conference on Cooperative Information Systems",
-            "where": "Rhodes, Greece",
-            "when": "23-25 October 2019",
-			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
-        }, {
-            "type": "Conference",
-            "role": "PC member",
-            "shortname": "FACS 2019",
-            "fullname": "16th International Conference on Formal Aspects of Component Software",
-            "where": "Amsterdam, Netherlands",
-            "when": "23-25 October 2019",
-			"url": "http://facs2019.org/"
         }
     ],
     "past": [
@@ -90,6 +82,22 @@
             "fullname": "16th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
             "where": "Toulouse, France",
             "when": "26 June 2018"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "CoopIS 2019",
+            "fullname": "27th International Conference on Cooperative Information Systems",
+            "where": "Rhodes, Greece",
+            "when": "23-25 October 2019",
+			"url": "http://www.otmconferences.org/index.php/conferences/coopis19"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "FACS 2019",
+            "fullname": "16th International Conference on Formal Aspects of Component Software",
+            "where": "Amsterdam, Netherlands",
+            "when": "23-25 October 2019",
+			"url": "http://facs2019.org/"
         }, {
             "type": "Conference",
             "role": "PC member",
