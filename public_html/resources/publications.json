@@ -7,6 +7,13 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
+	"title": "Technology-agnostic Declarative Deployment Automation of Cloud Applications",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani",
+	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+},  {
+	"type": "In proceedings",
 	"title": "Testing conformance in multi-component enterprise application management",
 	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
 	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
