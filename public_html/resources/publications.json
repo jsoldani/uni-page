@@ -1,4 +1,11 @@
 [{
+	"type": "Journal",
+	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
+	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
+	"where": "Software: Practice and Experience",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "In proceedings",
 	"title": "Frameworks and High-Availability in Microservices: An Industrial Survey",
 	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
@@ -12,7 +19,7 @@
 	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
 	"status": "Submitted",
 	"year": "Submitted for publication"
-},  {
+}, {
 	"type": "In proceedings",
 	"title": "Testing conformance in multi-component enterprise application management",
 	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
