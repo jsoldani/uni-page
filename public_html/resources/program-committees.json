@@ -35,6 +35,14 @@
 		}, {
             "type": "Conference",
             "role": "PC member",
+            "shortname": "SIoTEC 2020",
+            "fullname": "1st International Workshop on Secure IoT, Edge and Cloud systems",
+            "where": "Melbourne, Australia",
+            "when": "11 May 2020",
+			"url": "http://siotec2020.netsons.org/"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
             "shortname": "SERVICE COMPUTATION 2020",
             "fullname": "12th International Conference on Advanced Service Computing",
             "where": "Nice, France",

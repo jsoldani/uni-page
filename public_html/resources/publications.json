@@ -54,6 +54,13 @@
 	"status": "In press",
 	"year": "Accepted for publication"
 }, {
+	"type": "Journal",
+	"title": "Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)",
+	"author": "J.M. Jacquet, J. Soldani",
+	"where": "Science of Computer Programming",
+	"status": "In press",
+	"year": "Accepted for publication"
+}, {
 	"type": "In proceedings",
 	"title": "The EDMM Modeling and Transformation System",
 	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
