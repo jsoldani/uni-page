@@ -48,13 +48,6 @@
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
 	"type": "Journal",
-	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
-	"author": "J. Soldani, M. Kuhrmann, D. Pfahl",
-	"where": "ACM SIGSOFT Software Engineering Notes",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
-	"type": "Journal",
 	"title": "Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)",
 	"author": "J.M. Jacquet, J. Soldani",
 	"where": "Science of Computer Programming",
@@ -88,6 +81,14 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "In press"
+}, {
+	"type": "Journal",
+	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
+	"author": "J. Soldani, M. Kuhrmann, D. Pfahl",
+	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 1, pages 12-13",
+	"url": "https://dx.doi.org/10.1145/3375572.3375575",
+	"year": "2020",
+	"bib": "pains-gains-peer-reviewing.bib"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",
