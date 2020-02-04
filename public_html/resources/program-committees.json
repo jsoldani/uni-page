@@ -9,6 +9,14 @@
             "when": "1-3 April 2020",
 			"url": "https://esocc-conf.eu/index.php/phd-symposium/"
         }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "CoopIS 2020",
+            "fullname": "28th International Conference on Cooperative Information Systems",
+            "where": "Rhodes, Greece",
+            "when": "28-30 October 2020",
+			"url": "http://www.otmconferences.org/index.php/conferences/coopis20"
+        }, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "BDIOT 2020",
