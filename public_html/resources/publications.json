@@ -4,7 +4,8 @@
 	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
 	"where": "Software: Practice and Experience",
 	"status": "Submitted",
-	"year": "Submitted for publication"
+	"year": "Submitted for publication",
+	"preprint": "http://arxiv.org/abs/2002.01699"
 }, {
 	"type": "In proceedings",
 	"title": "Frameworks and High-Availability in Microservices: An Industrial Survey",
@@ -24,6 +25,13 @@
 	"title": "Testing conformance in multi-component enterprise application management",
 	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
 	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "(Title hidded for reasons of double-blind review)",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, F. Leymann, J. Soldani",
+	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
