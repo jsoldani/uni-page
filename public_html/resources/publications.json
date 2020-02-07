@@ -35,6 +35,13 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
+	"type": "In proceedings",
+	"title": "Finding feasible application deployments in edge clusters, with limited resources",
+	"author": "J. Soldani",
+	"where": "1st International Workshop on Edge Migration and Architecture (EdgeWays 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "D. Neri, J. Soldani, O. Zimmermann, A. Brogi",
@@ -54,13 +61,6 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
-}, {
-	"type": "Journal",
-	"title": "Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)",
-	"author": "J.M. Jacquet, J. Soldani",
-	"where": "Science of Computer Programming",
-	"status": "In press",
-	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
 	"title": "The EDMM Modeling and Transformation System",
@@ -89,6 +89,13 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "In press"
+}, {
+	"type": "Journal",
+	"title": "Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)",
+	"author": "J.M. Jacquet, J. Soldani",
+	"where": "Science of Computer Programming, vol. 191",
+	"url": "http://dx.doi.org/10.1016/j.scico.2020.102417",
+	"year": "2020"
 }, {
 	"type": "Journal",
 	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
