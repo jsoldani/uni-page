@@ -8,13 +8,6 @@
 	"preprint": "http://arxiv.org/abs/2002.01699"
 }, {
 	"type": "In proceedings",
-	"title": "Frameworks and High-Availability in Microservices: An Industrial Survey",
-	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
-	"where": "XXIII Ibero-American Conference on Software Engineering (CibSE 2020)",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "In proceedings",
 	"title": "(Title hidded for reasons of double-blind review)",
 	"author": "M. Wurster, U. Breitenbücher, A. Brogi, F. Leymann, J. Soldani",
 	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
@@ -59,6 +52,13 @@
 	"title": "Technology-agnostic Declarative Deployment Automation of Cloud Applications",
 	"author": "M. Wurster, U. Breitenbücher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani",
 	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "Frameworks and High-Availability in Microservices: An Industrial Survey",
+	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
+	"where": "XXIII Ibero-American Conference on Software Engineering (CibSE 2020)",
 	"status": "Accepted",
 	"year": "Accepted for publication"
 }, {
