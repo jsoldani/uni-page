@@ -15,6 +15,13 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
+	"title": "(Title hidded for reasons of double-blind review)",
+	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
+	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+},{
+	"type": "In proceedings",
 	"title": "Finding feasible application deployments in edge clusters, with limited resources",
 	"author": "J. Soldani",
 	"where": "1st International Workshop on Edge Migration and Architecture (EdgeWays 2020)",
