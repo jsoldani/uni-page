@@ -47,6 +47,13 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
+},  {
+	"type": "Journal",
+	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
+	"author": "J. Soldani",
+	"where": "ACM SIGSOFT Software Engineering Notes",
+	"year": "Accepted for publication",
+	"status": "In press"
 }, {
 	"type": "In proceedings",
 	"title": "Testing conformance in multi-component enterprise application management",

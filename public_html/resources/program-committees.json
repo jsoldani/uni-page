@@ -17,6 +17,14 @@
             "when": "28-30 October 2020",
 			"url": "http://www.otmconferences.org/index.php/conferences/coopis20"
         }, {
+			"type": "Workshop",
+			"role": "PC member",
+			"shortname": "FOCLASA 2020",
+			"fullname": "18th International Workshop on Foundations Of Coordination Languages And Self-Adaptive Systems",
+			"where": "Amsterdam, The Netherlands",
+			"when": "15 September 2020",
+			"url": "http://pages.di.unipi.it/foclasa"
+		}, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "BDIOT 2020",
