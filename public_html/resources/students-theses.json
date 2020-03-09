@@ -27,6 +27,13 @@
 	"university": "University of Pisa",
 	"date": "Ongoing"
 }, {
+	"type": "BSc",
+	"candidate": "Giulio Paparelli",
+	"title": "Ongoing",
+	"programme": "BSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "Ongoing"
+}, {
 	"type": "MSc",
 	"candidate": "Marco Cameriero",
 	"title": "Modelling and analysing scalable cloud applications",
