@@ -1,12 +1,5 @@
 [{
 	"type": "MSc",
-	"candidate": "Marco Cameriero",
-	"title": "Ongoing",
-	"programme": "MSc in Computer Science",
-	"university": "University of Pisa",
-	"date": "Ongoing"
-},{
-	"type": "MSc",
 	"candidate": "Sahar Sahbaee",
 	"title": "Ongoing",
 	"programme": "MSc in Computer Science",
@@ -33,13 +26,20 @@
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
 	"date": "Ongoing"
-},  {
+}, {
+	"type": "MSc",
+	"candidate": "Marco Cameriero",
+	"title": "Modelling and analysing scalable cloud applications",
+	"programme": "MSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "March 2020"
+}, {
 	"type": "BSc",
 	"candidate": "Giacono Vallorani",
-	"title": "Ongoing",
+	"title": "Deploying applications to multiple clouds",
 	"programme": "BSc in Computer Science",
 	"university": "University of Pisa",
-	"date": "Ongoing"
+	"date": "March 2020"
 }, {
 	"type": "MSc",
 	"candidate": "Matteo Bogo",
