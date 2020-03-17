@@ -25,6 +25,14 @@
 			"when": "15 September 2020",
 			"url": "http://pages.di.unipi.it/foclasa"
 		}, {
+			"type": "Workshop",
+			"role": "PC member",
+			"shortname": "Microservices 2020",
+			"fullname": "2020 Edition of the International Conference on Microservices",
+			"where": "Bologna, Italy",
+			"when": "8-10 September 2020",
+			"url": "https://www.conf-micro.services/2020/"
+		}, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "BDIOT 2020",
