@@ -7,20 +7,6 @@
 	"year": "Submitted for publication",
 	"preprint": "http://arxiv.org/abs/2002.01699"
 }, {
-	"type": "In proceedings",
-	"title": "(Title hidded for reasons of double-blind review)",
-	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
-	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-},{
-	"type": "In proceedings",
-	"title": "Finding feasible application deployments in edge clusters, with limited resources",
-	"author": "J. Soldani",
-	"where": "1st International Workshop on Edge Migration and Architecture (EdgeWays 2020)",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "D. Neri, J. Soldani, O. Zimmermann, A. Brogi",
@@ -40,13 +26,6 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "https://arxiv.org/abs/1905.07314"
-},  {
-	"type": "Journal",
-	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
-	"author": "J. Soldani",
-	"where": "ACM SIGSOFT Software Engineering Notes",
-	"year": "Accepted for publication",
-	"status": "In press"
 }, {
 	"type": "In proceedings",
 	"title": "Testing conformance in multi-component enterprise application management",
@@ -63,8 +42,22 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
+	"title": "Finding feasible application deployments in edge clusters, with limited resources",
+	"author": "J. Soldani",
+	"where": "1st International Workshop on Edge Migration and Architecture (EdgeWays 2020)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
 	"title": "Cloud-Native Deploy-Ability: An Analysis of Required Features of Deployment Technologies to Deploy Arbitrary Cloud-Native Applications",
 	"author": "M. Wurster, U. Breitenbücher, A. Brogi, F. Leymann, J. Soldani",
+	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "TOSCA Lite: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
+	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
 	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
 	"status": "Accepted",
 	"year": "Accepted for publication"
@@ -110,6 +103,14 @@
 	"where": "Science of Computer Programming, vol. 191",
 	"url": "http://dx.doi.org/10.1016/j.scico.2020.102417",
 	"year": "2020"
+}, {
+	"type": "Journal",
+	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
+	"author": "J. Soldani",
+	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 2, page 6",
+	"url": "http://dx.doi.org/10.1145/3385678.3385688",
+	"year": "2020",
+	"bib": "pains-gains-peer-reviewing-2.bib"
 }, {
 	"type": "Journal",
 	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
