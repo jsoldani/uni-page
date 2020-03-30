@@ -1,5 +1,12 @@
 [{
 	"type": "Journal",
+	"title": "FaaSten Your Decisions: Classification Framework and Technology Review of Function-as-a-Service Platforms",
+	"author": "V. Yussupov, J. Soldani, U. Breitenbücher, A. Brogi, F. Leymann",
+	"where": "Journal of Systems and Software",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
+	"type": "Journal",
 	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
 	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
 	"where": "Software: Practice and Experience",
@@ -56,7 +63,7 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "TOSCA Lite: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
+	"title": "TOSCA Light: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
 	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
 	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
 	"status": "Accepted",
