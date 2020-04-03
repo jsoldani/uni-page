@@ -4,7 +4,8 @@
 	"author": "V. Yussupov, J. Soldani, U. Breitenbücher, A. Brogi, F. Leymann",
 	"where": "Journal of Systems and Software",
 	"status": "Submitted",
-	"year": "Submitted for publication"
+	"year": "Submitted for publication",
+	"preprint": "http://arxiv.org/abs/2004.00969"
 }, {
 	"type": "Journal",
 	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",

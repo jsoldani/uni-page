@@ -82,45 +82,46 @@ function loadPublicationList(publications) {
 
 		// If a paper is submitted, it is displayed separately
 		// (with only authors and title)
-		if (pub.status == "Submitted") return;
+		if (pub.status != "Submitted") {
 
 
-		p.appendChild(document.createElement("br"));
+			p.appendChild(document.createElement("br"));
 
-		// Adding "where" and "year"
-		if (pub.where) p.innerHTML += pub.where;
-		if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
+			// Adding "where" and "year"
+			if (pub.where) p.innerHTML += pub.where;
+			if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
 
-		// Adding space
-		p.innerHTML += "&nbsp;&nbsp;";
+			// Adding space
+			p.innerHTML += "&nbsp;&nbsp;";
 
-		// Creating label for publication type
-		var typeLabel = document.createElement('span');
-		typeLabel.textContent = pub.type;
-		switch (pub.type) {
-			case "Journal":
-				typeLabel.className = "label label-danger";
-				break;
-			case "In proceedings":
-				typeLabel.className = "label label-primary";
-				break;
-			default:
-				typeLabel.className = "label label-default";
-				break;
+			// Creating label for publication type
+			var typeLabel = document.createElement('span');
+			typeLabel.textContent = pub.type;
+			switch (pub.type) {
+				case "Journal":
+					typeLabel.className = "label label-danger";
+					break;
+				case "In proceedings":
+					typeLabel.className = "label label-primary";
+					break;
+				default:
+					typeLabel.className = "label label-default";
+					break;
+			}
+			p.appendChild(typeLabel);
+
+			// Adding "status"
+			if(pub.status) {
+				var stat = document.createElement('span');
+				stat.textContent = pub.status;
+				stat.className = "label label-info";
+				p.appendChild(stat);
+			}
+			// Adding "bestpaper"
+			if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
+
 		}
-		p.appendChild(typeLabel);
-
-		// Adding "status"
-		if(pub.status) {
-			var stat = document.createElement('span');
-			stat.textContent = pub.status;
-			stat.className = "label label-info";
-			p.appendChild(stat);
-		}
-		// Adding "bestpaper"
-		if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
-
-
+		
 		p.appendChild(document.createElement("br"));
 
 		// Adding "bib"
