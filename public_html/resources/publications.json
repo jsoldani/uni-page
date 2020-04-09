@@ -15,6 +15,13 @@
 	"year": "Submitted for publication",
 	"preprint": "http://arxiv.org/abs/2002.01699"
 }, {
+	"type": "In proceedings",
+	"title": "TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies",
+	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani",
+	"where": "32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
 	"author": "D. Neri, J. Soldani, O. Zimmermann, A. Brogi",
