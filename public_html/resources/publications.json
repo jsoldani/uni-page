@@ -36,20 +36,6 @@
 	"preprint": "https://arxiv.org/abs/1905.07314"
 }, {
 	"type": "In proceedings",
-	"title": "Testing conformance in multi-component enterprise application management",
-	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
-	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
-	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "Technology-agnostic Declarative Deployment Automation of Cloud Applications",
-	"author": "M. Wurster, U. Breitenbücher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani",
-	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
-	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
 	"title": "Finding feasible application deployments in edge clusters, with limited resources",
 	"author": "J. Soldani",
 	"where": "1st International Workshop on Edge Migration and Architecture (EdgeWays 2020)",
@@ -127,6 +113,22 @@
 	"url": "https://dx.doi.org/10.1145/3375572.3375575",
 	"year": "2020",
 	"bib": "pains-gains-peer-reviewing.bib"
+}, {
+	"type": "In proceedings",
+	"title": "Testing conformance in multi-component enterprise application management",
+	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
+	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
+	"url": "http://dx.doi.org/10.1007/978-3-030-44769-4_1",
+	"year": "2020",
+	"bib": "management-conformance.bib"
+}, {
+	"type": "In proceedings",
+	"title": "Technology-agnostic Declarative Deployment Automation of Cloud Applications",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, L. Harzenetter, F. Leymann, J. Soldani",
+	"where": "8th European Conference On Service-Oriented And Cloud Computing (ESOCC 2020)",
+	"url": "http://dx.doi.org/10.1007/978-3-030-44769-4_8",
+	"year": "2020",
+	"bib": "edmm-saas-paas.bib"
 }, {
 	"type": "Journal",
 	"title": "Cloud Container Technologies: a State-of-the-Art Review",

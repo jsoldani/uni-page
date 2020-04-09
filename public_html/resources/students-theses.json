@@ -1,6 +1,6 @@
 [{
 	"type": "MSc",
-	"candidate": "Sahar Sahbaee",
+	"candidate": "Aldo D'Aquino",
 	"title": "Ongoing",
 	"programme": "MSc in Computer Science",
 	"university": "University of Pisa",
@@ -8,6 +8,13 @@
 }, {
 	"type": "MSc",
 	"candidate": "Javad Khalili",
+	"title": "Ongoing",
+	"programme": "MSc in Computer Science",
+	"university": "University of Pisa",
+	"date": "Ongoing"
+}, {
+	"type": "MSc",
+	"candidate": "Sahar Sahbaee",
 	"title": "Ongoing",
 	"programme": "MSc in Computer Science",
 	"university": "University of Pisa",
