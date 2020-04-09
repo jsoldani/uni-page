@@ -63,37 +63,8 @@ function loadPublicationList(publications) {
         var p = document.createElement('div');
 		p.className = "list-group-item";
 
-        // Adding "authors"
-        p.innerHTML += " " + pub.author + ". ";
-
-		p.innerHTML += "<br>"
-
-        // Adding "title"
-        var title = document.createElement('span');
-        if (pub.url) {
-			title = document.createElement('a');
-            title.href = pub.url;
-            title.target = "_blank";
-        }
-		title.innerHTML = " <b>" + pub.title + ".</b>";
-		p.appendChild(title);
-
-		pubList.appendChild(p);
-
-		// If a paper is submitted, it is displayed separately
-		// (with only authors and title)
+		// If a paper is already accepted, it is displayed with badges indicating its type and status
 		if (pub.status != "Submitted") {
-
-
-			p.appendChild(document.createElement("br"));
-
-			// Adding "where" and "year"
-			if (pub.where) p.innerHTML += pub.where;
-			if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
-
-			// Adding space
-			p.innerHTML += "&nbsp;&nbsp;";
-
 			// Creating label for publication type
 			var typeLabel = document.createElement('span');
 			typeLabel.textContent = pub.type;
@@ -109,16 +80,45 @@ function loadPublicationList(publications) {
 					break;
 			}
 			p.appendChild(typeLabel);
-
+			
+			// Adding space
+			p.innerHTML += "&nbsp;&nbsp;";
+			
 			// Adding "status"
 			if(pub.status) {
 				var stat = document.createElement('span');
 				stat.textContent = pub.status;
-				stat.className = "label label-info";
+				stat.className = "label label-default";
 				p.appendChild(stat);
 			}
+			
+		}
+
+        // Adding "authors"
+        p.innerHTML += " " + pub.author + ". ";
+
+		// Adding "title"
+        var title = document.createElement('span');
+        if (pub.url) {
+			title = document.createElement('a');
+            title.href = pub.url;
+            title.target = "_blank";
+        }
+		title.innerHTML = " <b>" + pub.title + ".</b>&nbsp;";
+		p.appendChild(title);
+
+		pubList.appendChild(p);
+
+		// If a paper is already accepted, it is displayed with information on the publishing venue
+		if (pub.status != "Submitted") {
+
+
+			// Adding "where" and "year"
+			if (pub.where) p.innerHTML += pub.where;
+			if (pub.type == "Journal" && pub.year) p.innerHTML += ", " + pub.year;
+
 			// Adding "bestpaper"
-			if (pub.bestpaper) p.innerHTML += " <span class='label label-success'>Best paper 🏆</span>"
+			if (pub.bestpaper) p.innerHTML += "&nbsp;&nbsp;<span class='label label-success'>Best paper 🏆</span>"
 
 		}
 		
