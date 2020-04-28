@@ -7,20 +7,21 @@
 	"year": "Submitted for publication",
 	"preprint": "http://arxiv.org/abs/2004.00969"
 }, {
-	"type": "Journal",
-	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
-	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
-	"where": "Software: Practice and Experience",
-	"status": "Submitted",
-	"year": "Submitted for publication",
-	"preprint": "http://arxiv.org/abs/2002.01699"
-}, {
 	"type": "In proceedings",
 	"title": "TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies",
 	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani",
 	"where": "32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track",
 	"status": "Submitted",
 	"year": "Submitted for publication"
+}, {
+	"type": "Journal",
+	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
+	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
+	"where": "Software: Practice and Experience",
+	"url": "http://dx.doi.org/10.1002/spe.2848",
+	"status": "In press",
+	"year": "Accepted for publication",
+	"preprint": "http://arxiv.org/abs/2002.01699"
 }, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
@@ -68,21 +69,6 @@
 	"author": "G. Marquez, J. Soldani, F. Ponce, H. Astudillo",
 	"where": "XXIII Ibero-American Conference on Software Engineering (CibSE 2020)",
 	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "The EDMM Modeling and Transformation System",
-	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
-	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track",
-	"bestpaper": "true",
-	"status": "In press",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
-	"author": "A. Brogi, D. Neri, J. Soldani",
-	"where": "15th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2019)",
-	"status": "In press",
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
@@ -170,6 +156,23 @@
 	"url": "http://dx.doi.org/10.1109/CLOUD.2019.00046",
 	"year": "2019",
 	"bib": "robust-trans-cloud.bib"
+}, {
+	"type": "In proceedings",
+	"title": "The EDMM Modeling and Transformation System",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, G. Falazi, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
+	"where": "17th International Conference on Service-Oriented Computing (ICSOC 2019), Demonstration track",
+	"bestpaper": "true",
+	"url": "http://dx.doi.org/10.1007/978-3-030-45989-5_26",
+	"year": "2019",
+	"bib": "edmm-demo.bib"
+}, {
+	"type": "In proceedings",
+	"title": "Freshening the air in microservices: Resolving architectural smells via refactoring",
+	"author": "A. Brogi, D. Neri, J. Soldani",
+	"where": "15th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2019)",
+	"url": "http://dx.doi.org/10.1007/978-3-030-45989-5_2",
+	"year": "2019",
+	"bib": "freshening-microservices.bib"
 }, {
 	"type": "Journal",
 	"title": "TosKer: A synergy between TOSCA and Docker for orchestrating multi-component applications",
