@@ -15,13 +15,6 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies",
-	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani",
-	"where": "32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
-	"type": "In proceedings",
 	"title": "MICO: A Pattern-based Approach for Modelling, Integrating and Deploying Microservice Compositions",
 	"author": "V. Yussupov, U. Breitenbücher, C. Krieger, F. Leymann, J. Soldani, M. Wurster",
 	"where": "24th IEEE International EDOC Conference - The Enterprise Computing Conference (IEEE EDOC 2020)",
@@ -75,6 +68,13 @@
 	"title": "TOSCA Light: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
 	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
 	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
+	"status": "Accepted",
+	"year": "Accepted for publication"
+}, {
+	"type": "In proceedings",
+	"title": "TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies",
+	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani",
+	"where": "32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track",
 	"status": "Accepted",
 	"year": "Accepted for publication"
 }, {
