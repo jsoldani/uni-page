@@ -58,20 +58,6 @@
 	"year": "Accepted for publication"
 }, {
 	"type": "In proceedings",
-	"title": "Cloud-Native Deploy-Ability: An Analysis of Required Features of Deployment Technologies to Deploy Arbitrary Cloud-Native Applications",
-	"author": "M. Wurster, U. Breitenbücher, A. Brogi, F. Leymann, J. Soldani",
-	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
-	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
-	"title": "TOSCA Light: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
-	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
-	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
-	"status": "Accepted",
-	"year": "Accepted for publication"
-}, {
-	"type": "In proceedings",
 	"title": "TOSCA Lightning: An Integrated Toolchain for Transforming TOSCA Light into Production-Ready Deployment Technologies",
 	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani",
 	"where": "32nd International Conference on Advanced Information Systems Engineering (CAiSE 2020), Demonstration track",
@@ -121,6 +107,22 @@
 	"url": "https://dx.doi.org/10.1145/3375572.3375575",
 	"year": "2020",
 	"bib": "pains-gains-peer-reviewing.bib"
+}, {
+	"type": "In proceedings",
+	"title": "Cloud-Native Deploy-Ability: An Analysis of Required Features of Deployment Technologies to Deploy Arbitrary Cloud-Native Applications",
+	"author": "M. Wurster, U. Breitenbücher, A. Brogi, F. Leymann, J. Soldani",
+	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
+	"url": "https://www.scitepress.org/PublicationsDetail.aspx?ID=cs0+4jJjCM4=&t=1",
+	"year": "2020",
+	"bib": "cloud-native-deploy-ability.bib"
+}, {
+	"type": "In proceedings",
+	"title": "TOSCA Light: Bridging the Gap Between TOSCA Specifications and Production-Ready Deployment Technologies",
+	"author": "M. Wurster, U. Breitenbücher, L. Harzenetter, F. Leymann, J. Soldani, V. Yussupov",
+	"where": "10th International Conference on Cloud Computing and Service Science (CLOSER 2020)",
+	"url": "https://www.scitepress.org/PublicationsDetail.aspx?ID=tNwwVgtj7qI=&t=1",
+	"year": "2020",
+	"bib": "tosca-light.bib"
 }, {
 	"type": "In proceedings",
 	"title": "Testing conformance in multi-component enterprise application management",
