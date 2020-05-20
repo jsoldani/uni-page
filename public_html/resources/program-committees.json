@@ -9,14 +9,6 @@
             "when": "28-30 September 2020",
 			"url": "https://esocc-conf.eu/index.php/phd-symposium/"
         }, {
-			"type": "Conference",
-			"role": "PC member",
-			"shortname": "CLOSER 2020",
-			"fullname": "10th International Conference on Cloud Computing and Service Science",
-			"where": "Prague, Czech Republic",
-			"when": "07-09 May 2020",
-			"url": "http://closer.scitevents.org/"
-		}, {
 			"type": "Workshop",
 			"role": "PC member",
 			"shortname": "AMP 2020",
@@ -115,6 +107,14 @@
             "where": "Toulouse, France",
             "when": "26 June 2018"
         }, {
+			"type": "Conference",
+			"role": "PC member",
+			"shortname": "CLOSER 2020",
+			"fullname": "10th International Conference on Cloud Computing and Service Science",
+			"where": "Prague, Czech Republic",
+			"when": "07-09 May 2020",
+			"url": "http://closer.scitevents.org/"
+		}, {
             "type": "Conference",
             "role": "PC member",
             "shortname": "CoopIS 2019",
