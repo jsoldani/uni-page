@@ -17,14 +17,6 @@
 			"when": "08 June 2020",
 			"url": "https://amp.fe.up.pt/2020/"
 		}, {
-            "type": "Conference",
-            "role": "PC member",
-            "shortname": "ASPAI 2020",
-            "fullname": "2nd International Conference on Advances in Signal Processing and Artificial Intelligence",
-            "where": "Berlin, Germany",
-            "when": "30 June-2 July 2020",
-			"url": "http://www.aspai-conference.com"
-        }, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "BDIOT 2020",
@@ -80,6 +72,14 @@
             "where": "Melbourne, Australia",
             "when": "02-05 November 2020",
 			"url": "http://siotec2020.netsons.org/"
+        }, {
+            "type": "Conference",
+            "role": "PC member",
+            "shortname": "ASPAI 2020",
+            "fullname": "2nd International Conference on Advances in Signal Processing and Artificial Intelligence",
+            "where": "Berlin, Germany",
+            "when": "18-20 November 2020",
+			"url": "http://www.aspai-conference.com"
         }, {
             "type": "Conference",
             "role": "PC member",
