@@ -17,6 +17,14 @@
 			"when": "08 June 2020",
 			"url": "https://amp.fe.up.pt/2020/"
 		}, {
+			"type": "Workshop",
+			"role": "PC member",
+			"shortname": "ICTS4eHealth 2020",
+			"fullname": "5th International Workshop on ICT Solutions for eHealth",
+			"where": "Rennes, France",
+			"when": "07 July 2020",
+			"url": "http://icts4ehealth.icar.cnr.it/"
+		}, {
 			"type": "Conference",
 			"role": "PC member",
 			"shortname": "BDIOT 2020",
