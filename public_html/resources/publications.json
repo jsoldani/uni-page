@@ -98,7 +98,7 @@
 	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 15",
 	"url": "https://doi.acm.org/10.1145/3402127.3402132",
 	"year": "2020",
-	"bib": ""
+	"bib": "pains-gains-peer-reviewing-2.bib"
 }, {
 	"type": "Journal",
 	"title": "Software Engineering Worldwide",
@@ -106,7 +106,7 @@
 	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 17",
 	"url": "https://doi.acm.org/10.1145/3402127.3402134",
 	"year": "2020",
-	"bib": ""
+	"bib": "se-worldwide-teaser.bib"
 }, {
 	"type": "Journal",
 	"title": "Pains and Gains of Peer Reviewing in Software Engineering",
