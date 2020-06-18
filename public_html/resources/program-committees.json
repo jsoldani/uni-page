@@ -96,7 +96,15 @@
             "where": "Barcelona, Spain",
             "when": "21-25 November 2020",
 			"url": "http://www.iaria.org/conferences2020/eLmL20.html"
-        }
+        }, {
+			"type": "Conference",
+			"role": "PC member",
+			"shortname": "CLOSER 2021",
+			"fullname": "11th International Conference on Cloud Computing and Service Science",
+			"where": "Prague, Czech Republic",
+			"when": "28-30 April 2020",
+			"url": "http://closer.scitevents.org/"
+		}
     ],
     "past": [
         {
