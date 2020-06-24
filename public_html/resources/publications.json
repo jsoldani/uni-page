@@ -6,6 +6,13 @@
 	"status": "Submitted",
 	"year": "Submitted for publication",
 	"preprint": "http://arxiv.org/abs/2004.00969"
+},{
+	"type": "Journal",
+	"title": "Compositionally Testing Management Conformance in Multi-Component Applications",
+	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
+	"where": "Acta Informatica",
+	"status": "Submitted",
+	"year": "Submitted for publication"
 }, {
 	"type": "Journal",
 	"title": "Fine-grained management of cloud-native applications, based on TOSCA",
