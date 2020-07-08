@@ -28,6 +28,13 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
+	"type": "In proceedings",
+	"title": "Mining the Architecture of Microservice-Based Applications from their Kubernetes Deployment",
+	"author": "G. Muntoni, J. Soldani, A. Brogi",
+	"where": "16th International Workshop on Engineering Service-Oriented Applications and Cloud Services (WESOACS 2020)",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+}, {
 	"type": "Journal",
 	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
 	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
