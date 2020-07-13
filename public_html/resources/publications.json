@@ -110,7 +110,7 @@
 	"title": "Pains and Gains of Peer Reviewing in Software Engineering (2)",
 	"author": "J. Soldani",
 	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 15",
-	"url": "https://doi.acm.org/10.1145/3402127.3402132",
+	"url": "https://dx.doi.org/10.1145/3402127.3402132",
 	"year": "2020",
 	"bib": "pains-gains-peer-reviewing-2.bib"
 }, {
@@ -118,7 +118,7 @@
 	"title": "Software Engineering Worldwide",
 	"author": "M. Kuhrmann, D. Pfahl, J. Soldani",
 	"where": "ACM SIGSOFT Software Engineering Notes, volume 45, issue 3, page 17",
-	"url": "https://doi.acm.org/10.1145/3402127.3402134",
+	"url": "https://dx.doi.org/10.1145/3402127.3402134",
 	"year": "2020",
 	"bib": "se-worldwide-teaser.bib"
 }, {
