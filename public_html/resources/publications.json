@@ -14,13 +14,6 @@
 	"status": "Submitted",
 	"year": "Submitted for publication"
 }, {
-	"type": "Journal",
-	"title": "Fine-grained management of cloud-native applications, based on TOSCA",
-	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
-	"where": "Internet Technology Letters",
-	"status": "Submitted",
-	"year": "Submitted for publication"
-}, {
 	"type": "In proceedings",
 	"title": "Pattern-based Modelling, Integration, and Deployment of Microservice Architectures",
 	"author": "V. Yussupov, U. Breitenbücher, C. Krieger, F. Leymann, J. Soldani, M. Wurster",
@@ -43,6 +36,13 @@
 	"status": "In press",
 	"year": "Accepted for publication",
 	"preprint": "http://arxiv.org/abs/2002.01699"
+}, {
+	"type": "Journal",
+	"title": "Fine-grained management of cloud-native applications, based on TOSCA",
+	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
+	"where": "Internet Technology Letters",
+	"status": "In press",
+	"year": "Accepted for publication"
 }, {
 	"type": "Journal",
 	"title": "Design principles, architectural smells and refactorings for microservices: A multivocal review",
