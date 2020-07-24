@@ -1,18 +1,25 @@
 [{
 	"type": "Journal",
+	"title": "Compositionally Testing Management Conformance in Multi-Component Applications",
+	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
+	"where": "Acta Informatica",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+},{
+	"type": "Journal",
+	"title": "Modelling and Analysing Replica- and Fault-aware Management of Horizontally Scalable Applications",
+	"author": "J. Soldani, M. Cameriero, A. Brogi",
+	"where": "Theoretical Computer Science",
+	"status": "Submitted",
+	"year": "Submitted for publication"
+},{
+	"type": "Journal",
 	"title": "FaaSten Your Decisions: Classification Framework and Technology Review of Function-as-a-Service Platforms",
 	"author": "V. Yussupov, J. Soldani, U. Breitenbücher, A. Brogi, F. Leymann",
 	"where": "Journal of Systems and Software",
 	"status": "Submitted",
 	"year": "Submitted for publication",
 	"preprint": "http://arxiv.org/abs/2004.00969"
-},{
-	"type": "Journal",
-	"title": "Compositionally Testing Management Conformance in Multi-Component Applications",
-	"author": "J. Soldani, L. Luthmann, M. Lochau, A. Brogi",
-	"where": "Acta Informatica",
-	"status": "Submitted",
-	"year": "Submitted for publication"
 }, {
 	"type": "In proceedings",
 	"title": "Pattern-based Modelling, Integration, and Deployment of Microservice Architectures",
