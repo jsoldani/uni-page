@@ -57,6 +57,13 @@
 	"university": "University of Pisa",
 	"date": "July 2020"
 }, {
+	"type": "PhD",
+	"candidate": "Davide Neri",
+	"title": "Analysing and deploying microservice-based applications",
+	"programme": "PhD in Computer Science",
+	"university": "University of Pisa",
+	"date": "March 2020"
+}, {
 	"type": "MSc",
 	"candidate": "Marco Cameriero",
 	"title": "Modelling and analysing scalable cloud applications",
