@@ -36,15 +36,6 @@
 	"year": "Submitted for publication"
 }, {
 	"type": "Journal",
-	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
-	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
-	"where": "Software: Practice and Experience",
-	"url": "http://dx.doi.org/10.1002/spe.2848",
-	"status": "In press",
-	"year": "Accepted for publication",
-	"preprint": "http://arxiv.org/abs/2002.01699"
-}, {
-	"type": "Journal",
 	"title": "Fine-grained management of cloud-native applications, based on TOSCA",
 	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
 	"where": "Internet Technology Letters",
@@ -106,6 +97,15 @@
 	"where": "4th International Workshop on Cloud Migration and Architecture (CloudWays 2018)",
 	"year": "Accepted for publication",
 	"status": "In press"
+}, {
+	"type": "Journal",
+	"title": "Component-aware Orchestration of Cloud-based Enterprise Applications, from TOSCA to Docker and Kubernetes",
+	"author": "M. Bogo, J. Soldani, D. Neri, A. Brogi",
+	"where": "Software: Practice and Experience, vol. 50, issue 9, pages 1793-1821",
+	"url": "http://dx.doi.org/10.1002/spe.2848",
+	"year": "2020",
+	"preprint": "http://arxiv.org/abs/2002.01699",
+	"bib": "toskose.bib"
 }, {
 	"type": "Journal",
 	"title": "Preface to the Special Issue on Foundations of Coordination Languages and Self-Adaptive Systems (FOCLASA 2018)",
